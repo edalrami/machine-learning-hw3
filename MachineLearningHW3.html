@@ -11791,7 +11791,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11834,7 +11834,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#read in data</span>
@@ -11861,7 +11861,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -11877,7 +11877,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -11949,7 +11949,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_centers</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">df</span><span class="p">):</span>
@@ -11966,7 +11966,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">centers</span> <span class="o">=</span> <span class="n">get_centers</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">df</span><span class="p">)</span>
@@ -11983,7 +11983,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -12002,7 +12002,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">plot_clusters</span><span class="p">(</span><span class="n">classes</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">centers</span><span class="p">):</span>
@@ -12069,7 +12069,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_classes</span><span class="p">(</span><span class="n">data_point</span><span class="p">,</span> <span class="n">center_points</span><span class="p">):</span>
@@ -12126,7 +12126,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_delta</span><span class="p">(</span><span class="n">num_centers</span><span class="p">,</span> <span class="n">prev_centers</span><span class="p">,</span> <span class="n">new_centers</span><span class="p">):</span>
@@ -12146,7 +12146,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
@@ -12190,7 +12190,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_clusters</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">centers</span><span class="p">)</span>
@@ -12236,7 +12236,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rbf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;rbfClassification.csv&quot;</span><span class="p">)</span>
@@ -12249,7 +12249,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rbf</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -12265,7 +12265,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[21]:</div>
+<div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -12337,7 +12337,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rbf</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;x1&quot;</span><span class="p">,</span> <span class="s2">&quot;x2&quot;</span><span class="p">,</span> <span class="s2">&quot;class&quot;</span><span class="p">]</span>
@@ -12350,7 +12350,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rbf</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -12366,7 +12366,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[23]:</div>
+<div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -12438,7 +12438,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">centers2</span> <span class="o">=</span> <span class="n">get_centers</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">rbf</span><span class="p">)</span>
@@ -12455,7 +12455,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[24]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -12481,7 +12481,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_clusters</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">rbf</span><span class="p">,</span> <span class="n">centers2</span><span class="p">)</span>
@@ -12524,7 +12524,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
@@ -12568,7 +12568,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_clusters</span><span class="p">(</span><span class="kc">True</span><span class="p">,</span> <span class="n">rbf</span><span class="p">,</span> <span class="n">centers2</span><span class="p">)</span>
@@ -12649,7 +12649,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">centers2</span>
@@ -12665,7 +12665,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[28]:</div>
+<div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -12683,7 +12683,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">centers2</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
@@ -12699,7 +12699,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[29]:</div>
+<div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -12716,7 +12716,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span>
@@ -12735,7 +12735,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">phi</span><span class="p">)</span>
@@ -12748,7 +12748,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">rbf</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">]</span>
@@ -12761,89 +12761,13 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi_inv</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">pinv</span><span class="p">(</span><span class="n">phi</span><span class="o">.</span><span class="n">values</span><span class="p">),</span> <span class="n">phi</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">phi</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi_inv</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">phi</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[34]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1.000000e+00</td>
-      <td>4.510281e-17</td>
-      <td>4.163336e-17</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>-4.440892e-16</td>
-      <td>1.000000e+00</td>
-      <td>-5.551115e-17</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-3.330669e-16</td>
-      <td>-2.012279e-16</td>
-      <td>1.000000e+00</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -12858,7 +12782,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">w</span> <span class="o">=</span> <span class="n">phi_inv</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
@@ -12875,7 +12799,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[35]:</div>
+<div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -12908,7 +12832,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">h</span> <span class="o">=</span> <span class="n">phi</span>
@@ -12924,7 +12848,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">h</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -12940,7 +12864,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[42]:</div>
+<div class="prompt output_prompt">Out[40]:</div>
 
 
 
@@ -12957,7 +12881,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">H</span> <span class="o">=</span> <span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">h</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">h</span><span class="p">[</span><span class="mi">0</span><span class="p">]))]</span>
@@ -12970,7 +12894,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mf">12.0</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">))</span>
@@ -12995,7 +12919,7 @@ $$</p>
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
+<img src="data:image/png;base64,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
 "
 >
 </div>
@@ -13008,7 +12932,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">classify_points</span><span class="p">(</span><span class="n">point</span><span class="p">):</span>
@@ -13027,7 +12951,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="p">[</span><span class="n">classify_points</span><span class="p">(</span><span class="n">H</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">H</span><span class="p">))]</span>
@@ -13040,7 +12964,7 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span>
@@ -13056,7 +12980,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[64]:</div>
+<div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -13073,7 +12997,41 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">rbf</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[46]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1],
+      dtype=int64)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">accuracy</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">predictions</span> <span class="o">==</span> <span class="n">rbf</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">])</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
@@ -13090,7 +13048,7 @@ $$</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[66]:</div>
+<div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -13118,6 +13076,1691 @@ Your task is to look into the data and provide some insight into who “might”
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Read in dataa file</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="o">=</span><span class="s1">&#39;stuFile.csv&#39;</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="c1">#Define the categorical variables in the dataset</span>
+<span class="n">cat_params</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;SexCode&#39;</span><span class="p">,</span> <span class="s1">&#39;MaritalCode&#39;</span><span class="p">,</span> <span class="s1">&#39;LeadCategoryCode&#39;</span><span class="p">,</span> 
+          <span class="s1">&#39;PrevEdCode&#39;</span><span class="p">,</span> <span class="s1">&#39;AdmRepName&#39;</span><span class="p">,</span><span class="s1">&#39;ProgramCode&#39;</span><span class="p">,</span> <span class="s1">&#39;CitizenCode&#39;</span><span class="p">,</span> 
+          <span class="s1">&#39;IsHispanic&#39;</span><span class="p">,</span> <span class="s1">&#39;DDVeteran&#39;</span><span class="p">]</span>
+<span class="c1">#Create a dictionary col_val that contains</span>
+<span class="c1">#all column names as keys and all unique values</span>
+<span class="c1">#associated with each key in a list</span>
+<span class="n">col_val</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">cat_params</span><span class="p">:</span>
+    <span class="n">col_val</span><span class="p">[</span><span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
+
+<span class="c1">#Print each column and respective data types</span>
+<span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">type</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[69]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&lt;class &#39;int&#39;&gt;    2260
+ Name: StuNum, dtype: int64, &lt;class &#39;float&#39;&gt;    2260
+ Name: avgYearPack, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: numYearAward, dtype: int64, &lt;class &#39;str&#39;&gt;    2260
+ Name: SexCode, dtype: int64, &lt;class &#39;str&#39;&gt;    2260
+ Name: MaritalCode, dtype: int64, &lt;class &#39;str&#39;&gt;    2260
+ Name: LeadCategoryCode, dtype: int64, &lt;class &#39;str&#39;&gt;    2260
+ Name: PrevEdCode, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: AdmRepName, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: ProgramCode, dtype: int64, &lt;class &#39;str&#39;&gt;    2260
+ Name: CitizenCode, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: IsHispanic, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: DDVeteran, dtype: int64, &lt;class &#39;int&#39;&gt;    2260
+ Name: cancelFlag.x, dtype: int64]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This dataset uses categorical variables for <code>SexCode</code>, <code>MaritalCode</code>, <code>LeadCategoryCode</code>, <code>PrevEdCode</code>, <code>AdmRepName</code>, <code>ProgramCode</code>, <code>CitizenCode</code>, <code>IsHispanic</code>, and <code>DDVeteran</code>. We will need to find the categorical probability of each of these parameters. The reason that we don't consider <code>StuNum</code> as a categorical variable is because each repective row/observation will have a unique case number. Therefore, we believe that it is unnecessary to reference this variable as a categorical variable or continuous in our analysis. This information is more appropriately used as index values in our dataset.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Create empty dictionary to store </span>
+<span class="c1">#conditional probabilities for all categorical variables</span>
+<span class="n">prob</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="c1">#Compute the conditional probabilities </span>
+<span class="c1">#For all unique values in all categories</span>
+<span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">cat_params</span><span class="p">:</span>
+    <span class="n">temp_1</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">temp_2</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="c1">#Encode each categorical variable into numeric representation</span>
+    <span class="c1">#df[param] = pd.factorize(df[param].astype(&#39;category&#39;))[0]</span>
+    
+    <span class="c1">#For each unique value in each category</span>
+    <span class="c1">#Compute the conditional probabilities</span>
+    <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">param</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()):</span>
+        <span class="n">temp_1</span><span class="p">[</span><span class="n">val</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="n">param</span><span class="p">]</span> <span class="o">==</span> <span class="n">val</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cancelFlag.x&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">param</span><span class="p">]</span> <span class="o">==</span> <span class="n">val</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">temp_2</span><span class="p">[</span><span class="n">val</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="n">param</span><span class="p">]</span> <span class="o">==</span> <span class="n">val</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cancelFlag.x&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">param</span><span class="p">]</span> <span class="o">==</span> <span class="n">val</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    
+    <span class="c1">#Set param (the current categorical varaible) as a dictionary key </span>
+    <span class="c1">#Then store the conditional probabilities to this specific key</span>
+    <span class="n">prob</span><span class="p">[</span><span class="n">param</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;not_cancel&#39;</span><span class="p">:</span> <span class="n">temp_1</span><span class="p">,</span>
+        <span class="s1">&#39;cancel&#39;</span><span class="p">:</span> <span class="n">temp_2</span><span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">prob</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[71]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;SexCode&#39;: {&#39;not_cancel&#39;: {&#39;F&#39;: 0.7883923985618901, &#39;M&#39;: 0.8370607028753994},
+  &#39;cancel&#39;: {&#39;F&#39;: 0.21160760143810992, &#39;M&#39;: 0.16293929712460065}},
+ &#39;MaritalCode&#39;: {&#39;not_cancel&#39;: {&#39;UN&#39;: 0.9882352941176471,
+   &#39;S&#39;: 0.7941970310391363,
+   &#39;M&#39;: 0.7769230769230769,
+   &#39;D&#39;: 0.7522123893805309,
+   &#39;P&#39;: 0.7818181818181819,
+   &#39;W&#39;: 0.8},
+  &#39;cancel&#39;: {&#39;UN&#39;: 0.011764705882352941,
+   &#39;S&#39;: 0.2058029689608637,
+   &#39;M&#39;: 0.2230769230769231,
+   &#39;D&#39;: 0.24778761061946902,
+   &#39;P&#39;: 0.21818181818181817,
+   &#39;W&#39;: 0.2}},
+ &#39;LeadCategoryCode&#39;: {&#39;not_cancel&#39;: {&#39;REF&#39;: 0.8379746835443038,
+   &#39;INTINT&#39;: 0.8034351145038168,
+   &#39;RADIO&#39;: 0.9416058394160584,
+   &#39;INTER&#39;: 0.7468354430379747,
+   &#39;PPC&#39;: 0.7254901960784313,
+   &#39;DIRMAIL&#39;: 0.6470588235294118,
+   &#39;PRINT&#39;: 0.7058823529411765,
+   &#39;OUTDOOR&#39;: 0.873015873015873,
+   &#39;EMAIL&#39;: 0.75,
+   &#39;PDSCLMDA&#39;: 0.5573770491803278,
+   &#39;TV&#39;: 0.6511627906976745,
+   &#39;BUSDEV&#39;: 1.0,
+   &#39;OTHER&#39;: 1.0,
+   &#39;DISPLAY&#39;: 0.5},
+  &#39;cancel&#39;: {&#39;REF&#39;: 0.1620253164556962,
+   &#39;INTINT&#39;: 0.1965648854961832,
+   &#39;RADIO&#39;: 0.058394160583941604,
+   &#39;INTER&#39;: 0.25316455696202533,
+   &#39;PPC&#39;: 0.27450980392156865,
+   &#39;DIRMAIL&#39;: 0.35294117647058826,
+   &#39;PRINT&#39;: 0.29411764705882354,
+   &#39;OUTDOOR&#39;: 0.12698412698412698,
+   &#39;EMAIL&#39;: 0.25,
+   &#39;PDSCLMDA&#39;: 0.4426229508196721,
+   &#39;TV&#39;: 0.3488372093023256,
+   &#39;BUSDEV&#39;: 0.0,
+   &#39;OTHER&#39;: 0.0,
+   &#39;DISPLAY&#39;: 0.5}},
+ &#39;PrevEdCode&#39;: {&#39;not_cancel&#39;: {&#39;SOMECOLL&#39;: 0.8184159690920798,
+   &#39;ASSOC&#39;: 0.7633928571428571,
+   &#39;BACH&#39;: 0.6994535519125683,
+   &#39;UN&#39;: 0.8513513513513513,
+   &#39;HS&#39;: 0.7684729064039408,
+   &#39;GED&#39;: 0.5,
+   &#39;INHS&#39;: 0.0,
+   &#39;MAST&#39;: 0.0},
+  &#39;cancel&#39;: {&#39;SOMECOLL&#39;: 0.18158403090792016,
+   &#39;ASSOC&#39;: 0.23660714285714285,
+   &#39;BACH&#39;: 0.3005464480874317,
+   &#39;UN&#39;: 0.14864864864864866,
+   &#39;HS&#39;: 0.2315270935960591,
+   &#39;GED&#39;: 0.5,
+   &#39;INHS&#39;: 1.0,
+   &#39;MAST&#39;: 1.0}},
+ &#39;AdmRepName&#39;: {&#39;not_cancel&#39;: {19: 1.0,
+   15: 1.0,
+   30: 0.6,
+   7: 0.7835420393559929,
+   14: 0.7772727272727272,
+   18: 0.6590909090909091,
+   2: 1.0,
+   3: 1.0,
+   13: 0.6756756756756757,
+   6: 1.0,
+   31: 0.6153846153846154,
+   1: 1.0,
+   8: 0.6289308176100629,
+   9: 1.0,
+   5: 1.0,
+   16: 1.0,
+   23: 1.0,
+   20: 1.0,
+   24: 1.0,
+   21: 1.0,
+   4: 0.625,
+   12: 1.0,
+   26: 0.6666666666666666,
+   27: 1.0,
+   25: 0.375,
+   28: 1.0,
+   11: 1.0,
+   10: 1.0,
+   29: 1.0,
+   17: 1.0,
+   22: 1.0},
+  &#39;cancel&#39;: {19: 0.0,
+   15: 0.0,
+   30: 0.4,
+   7: 0.21645796064400716,
+   14: 0.22272727272727272,
+   18: 0.3409090909090909,
+   2: 0.0,
+   3: 0.0,
+   13: 0.32432432432432434,
+   6: 0.0,
+   31: 0.38461538461538464,
+   1: 0.0,
+   8: 0.3710691823899371,
+   9: 0.0,
+   5: 0.0,
+   16: 0.0,
+   23: 0.0,
+   20: 0.0,
+   24: 0.0,
+   21: 0.0,
+   4: 0.375,
+   12: 0.0,
+   26: 0.3333333333333333,
+   27: 0.0,
+   25: 0.625,
+   28: 0.0,
+   11: 0.0,
+   10: 0.0,
+   29: 0.0,
+   17: 0.0,
+   22: 0.0}},
+ &#39;ProgramCode&#39;: {&#39;not_cancel&#39;: {2: 0.8063872255489022, 1: 0.70703125},
+  &#39;cancel&#39;: {2: 0.1936127744510978, 1: 0.29296875}},
+ &#39;CitizenCode&#39;: {&#39;not_cancel&#39;: {&#39;US&#39;: 0.7909307875894988,
+   &#39;ELNC&#39;: 0.8421052631578947,
+   &#39;N&#39;: 0.9230769230769231},
+  &#39;cancel&#39;: {&#39;US&#39;: 0.2090692124105012,
+   &#39;ELNC&#39;: 0.15789473684210525,
+   &#39;N&#39;: 0.07692307692307693}},
+ &#39;IsHispanic&#39;: {&#39;not_cancel&#39;: {2: 0.7915966386554621, 1: 0.8084210526315789},
+  &#39;cancel&#39;: {2: 0.20840336134453782, 1: 0.19157894736842104}},
+ &#39;DDVeteran&#39;: {&#39;not_cancel&#39;: {0: 0.7937639198218263, 1: 1.0},
+  &#39;cancel&#39;: {0: 0.20623608017817371, 1: 0.0}}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">computeDistances</span><span class="p">(</span><span class="n">categorical</span><span class="p">):</span>
+    <span class="n">not_cancel</span> <span class="o">=</span> <span class="n">categorical</span><span class="p">[</span><span class="s2">&quot;not_cancel&quot;</span><span class="p">]</span>
+    <span class="n">cancel</span> <span class="o">=</span> <span class="n">categorical</span><span class="p">[</span><span class="s2">&quot;cancel&quot;</span><span class="p">]</span>
+    <span class="n">cat_vals</span> <span class="o">=</span> <span class="n">cancel</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+    
+    <span class="c1">#Get the labels of the distance to be measured</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;-&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">val2</span><span class="p">)</span> <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">cat_vals</span> <span class="k">for</span> <span class="n">val2</span> <span class="ow">in</span> <span class="n">cat_vals</span><span class="p">]</span>
+    
+    <span class="c1">#Compute all distances</span>
+    <span class="n">dist</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">cancel</span><span class="p">[</span><span class="n">val</span><span class="p">]</span> <span class="o">-</span> <span class="n">cancel</span><span class="p">[</span><span class="n">val2</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">not_cancel</span><span class="p">[</span><span class="n">val</span><span class="p">]</span> <span class="o">-</span> <span class="n">not_cancel</span><span class="p">[</span><span class="n">val2</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> 
+            <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">cat_vals</span> <span class="k">for</span> <span class="n">val2</span> <span class="ow">in</span> <span class="n">cat_vals</span><span class="p">]</span>
+    <span class="c1">#Combine into a dictionary</span>
+    <span class="n">dist_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">labels</span><span class="p">,</span> <span class="n">dist</span><span class="p">))</span>
+    
+    <span class="k">return</span> <span class="n">dist_dict</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#For every categorical variable compute all distances</span>
+<span class="n">all_cat_dists</span> <span class="o">=</span> <span class="p">[</span><span class="n">computeDistances</span><span class="p">(</span><span class="n">prob</span><span class="p">[</span><span class="n">category</span><span class="p">])</span> <span class="k">for</span> <span class="n">category</span> <span class="ow">in</span> <span class="n">cat_params</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Store all distances to each respective category</span>
+<span class="n">cat_distances</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">cat_params</span><span class="p">,</span> <span class="n">all_cat_dists</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Test to verify all distances for &quot;SexCode&quot; were computed</span>
+<span class="c1">#There should be 4 values with F-F and M-M as 0</span>
+<span class="n">cat_distances</span><span class="p">[</span><span class="s1">&#39;SexCode&#39;</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[75]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;F-F&#39;: 0.0,
+ &#39;F-M&#39;: 0.0047372076895046845,
+ &#39;M-F&#39;: 0.0047372076895046845,
+ &#39;M-M&#39;: 0.0}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The distances between the different levels for all categorical variables are listed below:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cat_distances</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[76]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;SexCode&#39;: {&#39;F-F&#39;: 0.0,
+  &#39;F-M&#39;: 0.0047372076895046845,
+  &#39;M-F&#39;: 0.0047372076895046845,
+  &#39;M-M&#39;: 0.0},
+ &#39;MaritalCode&#39;: {&#39;UN-UN&#39;: 0.0,
+  &#39;UN-S&#39;: 0.0753016950770507,
+  &#39;UN-M&#39;: 0.08930570627137038,
+  &#39;UN-D&#39;: 0.11141362312109158,
+  &#39;UN-P&#39;: 0.08521604850010009,
+  &#39;UN-W&#39;: 0.07086505190311418,
+  &#39;S-UN&#39;: 0.0753016950770507,
+  &#39;S-S&#39;: 0.0,
+  &#39;S-M&#39;: 0.0005967789816074495,
+  &#39;S-D&#39;: 0.003525420270403,
+  &#39;S-P&#39;: 0.0003064718160702497,
+  &#39;S-W&#39;: 6.734889752149538e-05,
+  &#39;M-UN&#39;: 0.08930570627137038,
+  &#39;M-S&#39;: 0.0005967789816074495,
+  &#39;M-M&#39;: 0.0,
+  &#39;M-D&#39;: 0.0012212361576506737,
+  &#39;M-P&#39;: 4.7924103868160265e-05,
+  &#39;M-W&#39;: 0.0010650887573964512,
+  &#39;D-UN&#39;: 0.11141362312109158,
+  &#39;D-S&#39;: 0.003525420270403,
+  &#39;D-M&#39;: 0.0012212361576506737,
+  &#39;D-D&#39;: 0.0,
+  &#39;D-P&#39;: 0.0017530058917225337,
+  &#39;D-W&#39;: 0.004567311457435986,
+  &#39;P-UN&#39;: 0.08521604850010009,
+  &#39;P-S&#39;: 0.0003064718160702497,
+  &#39;P-M&#39;: 4.7924103868160265e-05,
+  &#39;P-D&#39;: 0.0017530058917225337,
+  &#39;P-P&#39;: 0.0,
+  &#39;P-W&#39;: 0.0006611570247933879,
+  &#39;W-UN&#39;: 0.07086505190311418,
+  &#39;W-S&#39;: 6.734889752149538e-05,
+  &#39;W-M&#39;: 0.0010650887573964512,
+  &#39;W-D&#39;: 0.004567311457435986,
+  &#39;W-P&#39;: 0.0006611570247933879,
+  &#39;W-W&#39;: 0.0},
+ &#39;LeadCategoryCode&#39;: {&#39;REF-REF&#39;: 0.0,
+  &#39;REF-INTINT&#39;: 0.002385963659005139,
+  &#39;REF-RADIO&#39;: 0.02147883293463178,
+  &#39;REF-INTER&#39;: 0.016612722320141014,
+  &#39;REF-PPC&#39;: 0.025305519840920037,
+  &#39;REF-DIRMAIL&#39;: 0.0728977312104517,
+  &#39;REF-PRINT&#39;: 0.03489676760833177,
+  &#39;REF-OUTDOOR&#39;: 0.0024557699191648267,
+  &#39;REF-EMAIL&#39;: 0.015479089889440798,
+  &#39;REF-PDSCLMDA&#39;: 0.1574700648213191,
+  &#39;REF-TV&#39;: 0.06979736661788107,
+  &#39;REF-BUSDEV&#39;: 0.05250440634513699,
+  &#39;REF-OTHER&#39;: 0.05250440634513699,
+  &#39;REF-DISPLAY&#39;: 0.22845377343374462,
+  &#39;INTINT-REF&#39;: 0.002385963659005139,
+  &#39;INTINT-INTINT&#39;: 0.0,
+  &#39;INTINT-RADIO&#39;: 0.03818229844554867,
+  &#39;INTINT-INTER&#39;: 0.006407045620082525,
+  &#39;INTINT-PPC&#39;: 0.012150820616679981,
+  &#39;INTINT-DIRMAIL&#39;: 0.04890708875782357,
+  &#39;INTINT-PRINT&#39;: 0.019033082576994702,
+  &#39;INTINT-OUTDOOR&#39;: 0.009682963910226173,
+  &#39;INTINT-EMAIL&#39;: 0.005710622924072022,
+  &#39;INTINT-PDSCLMDA&#39;: 0.12108914302147669,
+  &#39;INTINT-TV&#39;: 0.046373721194645334,
+  &#39;INTINT-BUSDEV&#39;: 0.07727550842025524,
+  &#39;INTINT-OTHER&#39;: 0.07727550842025524,
+  &#39;INTINT-DISPLAY&#39;: 0.18414573742788878,
+  &#39;RADIO-REF&#39;: 0.02147883293463178,
+  &#39;RADIO-INTINT&#39;: 0.03818229844554867,
+  &#39;RADIO-RADIO&#39;: 0.0,
+  &#39;RADIO-INTER&#39;: 0.07587101461055169,
+  &#39;RADIO-PPC&#39;: 0.09341194259047284,
+  &#39;RADIO-DIRMAIL&#39;: 0.1735158891354569,
+  &#39;RADIO-PRINT&#39;: 0.11113112415174765,
+  &#39;RADIO-OUTDOOR&#39;: 0.00940916698155711,
+  &#39;RADIO-EMAIL&#39;: 0.07342559539666471,
+  &#39;RADIO-PDSCLMDA&#39;: 0.29526352649202603,
+  &#39;RADIO-TV&#39;: 0.1687143290976591,
+  &#39;RADIO-BUSDEV&#39;: 0.006819755980606324,
+  &#39;RADIO-OTHER&#39;: 0.006819755980606324,
+  &#39;RADIO-DISPLAY&#39;: 0.39003143481272307,
+  &#39;INTER-REF&#39;: 0.016612722320141014,
+  &#39;INTER-INTINT&#39;: 0.006407045620082525,
+  &#39;INTER-RADIO&#39;: 0.07587101461055169,
+  &#39;INTER-INTER&#39;: 0.0,
+  &#39;INTER-PPC&#39;: 0.0009112391355277866,
+  &#39;INTER-DIRMAIL&#39;: 0.01991074760111307,
+  &#39;INTER-PRINT&#39;: 0.003354311176952938,
+  &#39;INTER-OUTDOOR&#39;: 0.03184300181881462,
+  &#39;INTER-EMAIL&#39;: 2.0028841531806013e-05,
+  &#39;INTER-PDSCLMDA&#39;: 0.07178896600623846,
+  &#39;INTER-TV&#39;: 0.01830651281165591,
+  &#39;INTER-BUSDEV&#39;: 0.12818458580355713,
+  &#39;INTER-OTHER&#39;: 0.12818458580355713,
+  &#39;INTER-DISPLAY&#39;: 0.12185547187950647,
+  &#39;PPC-REF&#39;: 0.025305519840920037,
+  &#39;PPC-INTINT&#39;: 0.012150820616679981,
+  &#39;PPC-RADIO&#39;: 0.09341194259047284,
+  &#39;PPC-INTER&#39;: 0.0009112391355277866,
+  &#39;PPC-PPC&#39;: 0.0,
+  &#39;PPC-DIRMAIL&#39;: 0.012302960399846205,
+  &#39;PPC-PRINT&#39;: 0.0007689350249903851,
+  &#39;PPC-OUTDOOR&#39;: 0.04352765071170082,
+  &#39;PPC-EMAIL&#39;: 0.001201460976547484,
+  &#39;PPC-PDSCLMDA&#39;: 0.05652406031996665,
+  &#39;PPC-TV&#39;: 0.011049126381270744,
+  &#39;PPC-BUSDEV&#39;: 0.15071126489811615,
+  &#39;PPC-OTHER&#39;: 0.15071126489811615,
+  &#39;PPC-DISPLAY&#39;: 0.10169165705497883,
+  &#39;DIRMAIL-REF&#39;: 0.0728977312104517,
+  &#39;DIRMAIL-INTINT&#39;: 0.04890708875782357,
+  &#39;DIRMAIL-RADIO&#39;: 0.1735158891354569,
+  &#39;DIRMAIL-INTER&#39;: 0.01991074760111307,
+  &#39;DIRMAIL-PPC&#39;: 0.012302960399846205,
+  &#39;DIRMAIL-DIRMAIL&#39;: 0.0,
+  &#39;DIRMAIL-PRINT&#39;: 0.006920415224913498,
+  &#39;DIRMAIL-OUTDOOR&#39;: 0.10211317642525419,
+  &#39;DIRMAIL-EMAIL&#39;: 0.021193771626297576,
+  &#39;DIRMAIL-PDSCLMDA&#39;: 0.016085641300800015,
+  &#39;DIRMAIL-TV&#39;: 3.36850930363558e-05,
+  &#39;DIRMAIL-BUSDEV&#39;: 0.2491349480968858,
+  &#39;DIRMAIL-OTHER&#39;: 0.2491349480968858,
+  &#39;DIRMAIL-DISPLAY&#39;: 0.043252595155709346,
+  &#39;PRINT-REF&#39;: 0.03489676760833177,
+  &#39;PRINT-INTINT&#39;: 0.019033082576994702,
+  &#39;PRINT-RADIO&#39;: 0.11113112415174765,
+  &#39;PRINT-INTER&#39;: 0.003354311176952938,
+  &#39;PRINT-PPC&#39;: 0.0007689350249903851,
+  &#39;PRINT-DIRMAIL&#39;: 0.006920415224913498,
+  &#39;PRINT-PRINT&#39;: 0.0,
+  &#39;PRINT-OUTDOOR&#39;: 0.05586722706511798,
+  &#39;PRINT-EMAIL&#39;: 0.0038927335640138376,
+  &#39;PRINT-PDSCLMDA&#39;: 0.04410765049020385,
+  &#39;PRINT-TV&#39;: 0.00598846098424099,
+  &#39;PRINT-BUSDEV&#39;: 0.17301038062283736,
+  &#39;PRINT-OTHER&#39;: 0.17301038062283736,
+  &#39;PRINT-DISPLAY&#39;: 0.08477508650519033,
+  &#39;OUTDOOR-REF&#39;: 0.0024557699191648267,
+  &#39;OUTDOOR-INTINT&#39;: 0.009682963910226173,
+  &#39;OUTDOOR-RADIO&#39;: 0.00940916698155711,
+  &#39;OUTDOOR-INTER&#39;: 0.03184300181881462,
+  &#39;OUTDOOR-PPC&#39;: 0.04352765071170082,
+  &#39;OUTDOOR-DIRMAIL&#39;: 0.10211317642525419,
+  &#39;OUTDOOR-PRINT&#39;: 0.05586722706511798,
+  &#39;OUTDOOR-OUTDOOR&#39;: 0.0,
+  &#39;OUTDOOR-EMAIL&#39;: 0.030265810027714793,
+  &#39;OUTDOOR-PDSCLMDA&#39;: 0.19925573422457266,
+  &#39;OUTDOOR-TV&#39;: 0.09843758026817079,
+  &#39;OUTDOOR-BUSDEV&#39;: 0.03224993701184177,
+  &#39;OUTDOOR-OTHER&#39;: 0.03224993701184177,
+  &#39;OUTDOOR-DISPLAY&#39;: 0.2782816830435878,
+  &#39;EMAIL-REF&#39;: 0.015479089889440798,
+  &#39;EMAIL-INTINT&#39;: 0.005710622924072022,
+  &#39;EMAIL-RADIO&#39;: 0.07342559539666471,
+  &#39;EMAIL-INTER&#39;: 2.0028841531806013e-05,
+  &#39;EMAIL-PPC&#39;: 0.001201460976547484,
+  &#39;EMAIL-DIRMAIL&#39;: 0.021193771626297576,
+  &#39;EMAIL-PRINT&#39;: 0.0038927335640138376,
+  &#39;EMAIL-OUTDOOR&#39;: 0.030265810027714793,
+  &#39;EMAIL-EMAIL&#39;: 0.0,
+  &#39;EMAIL-PDSCLMDA&#39;: 0.07420720236495568,
+  &#39;EMAIL-TV&#39;: 0.019537587885343422,
+  &#39;EMAIL-BUSDEV&#39;: 0.125,
+  &#39;EMAIL-OTHER&#39;: 0.125,
+  &#39;EMAIL-DISPLAY&#39;: 0.125,
+  &#39;PDSCLMDA-REF&#39;: 0.1574700648213191,
+  &#39;PDSCLMDA-INTINT&#39;: 0.12108914302147669,
+  &#39;PDSCLMDA-RADIO&#39;: 0.29526352649202603,
+  &#39;PDSCLMDA-INTER&#39;: 0.07178896600623846,
+  &#39;PDSCLMDA-PPC&#39;: 0.05652406031996665,
+  &#39;PDSCLMDA-DIRMAIL&#39;: 0.016085641300800015,
+  &#39;PDSCLMDA-PRINT&#39;: 0.04410765049020385,
+  &#39;PDSCLMDA-OUTDOOR&#39;: 0.19925573422457266,
+  &#39;PDSCLMDA-EMAIL&#39;: 0.07420720236495568,
+  &#39;PDSCLMDA-PDSCLMDA&#39;: 0.0,
+  &#39;PDSCLMDA-TV&#39;: 0.017591530623917096,
+  &#39;PDSCLMDA-BUSDEV&#39;: 0.3918301531846278,
+  &#39;PDSCLMDA-OTHER&#39;: 0.3918301531846278,
+  &#39;PDSCLMDA-DISPLAY&#39;: 0.006584251545283521,
+  &#39;TV-REF&#39;: 0.06979736661788107,
+  &#39;TV-INTINT&#39;: 0.046373721194645334,
+  &#39;TV-RADIO&#39;: 0.1687143290976591,
+  &#39;TV-INTER&#39;: 0.01830651281165591,
+  &#39;TV-PPC&#39;: 0.011049126381270744,
+  &#39;TV-DIRMAIL&#39;: 3.36850930363558e-05,
+  &#39;TV-PRINT&#39;: 0.00598846098424099,
+  &#39;TV-OUTDOOR&#39;: 0.09843758026817079,
+  &#39;TV-EMAIL&#39;: 0.019537587885343422,
+  &#39;TV-PDSCLMDA&#39;: 0.017591530623917096,
+  &#39;TV-TV&#39;: 0.0,
+  &#39;TV-BUSDEV&#39;: 0.24337479718766897,
+  &#39;TV-OTHER&#39;: 0.24337479718766897,
+  &#39;TV-DISPLAY&#39;: 0.045700378583017856,
+  &#39;BUSDEV-REF&#39;: 0.05250440634513699,
+  &#39;BUSDEV-INTINT&#39;: 0.07727550842025524,
+  &#39;BUSDEV-RADIO&#39;: 0.006819755980606324,
+  &#39;BUSDEV-INTER&#39;: 0.12818458580355713,
+  &#39;BUSDEV-PPC&#39;: 0.15071126489811615,
+  &#39;BUSDEV-DIRMAIL&#39;: 0.2491349480968858,
+  &#39;BUSDEV-PRINT&#39;: 0.17301038062283736,
+  &#39;BUSDEV-OUTDOOR&#39;: 0.03224993701184177,
+  &#39;BUSDEV-EMAIL&#39;: 0.125,
+  &#39;BUSDEV-PDSCLMDA&#39;: 0.3918301531846278,
+  &#39;BUSDEV-TV&#39;: 0.24337479718766897,
+  &#39;BUSDEV-BUSDEV&#39;: 0.0,
+  &#39;BUSDEV-OTHER&#39;: 0.0,
+  &#39;BUSDEV-DISPLAY&#39;: 0.5,
+  &#39;OTHER-REF&#39;: 0.05250440634513699,
+  &#39;OTHER-INTINT&#39;: 0.07727550842025524,
+  &#39;OTHER-RADIO&#39;: 0.006819755980606324,
+  &#39;OTHER-INTER&#39;: 0.12818458580355713,
+  &#39;OTHER-PPC&#39;: 0.15071126489811615,
+  &#39;OTHER-DIRMAIL&#39;: 0.2491349480968858,
+  &#39;OTHER-PRINT&#39;: 0.17301038062283736,
+  &#39;OTHER-OUTDOOR&#39;: 0.03224993701184177,
+  &#39;OTHER-EMAIL&#39;: 0.125,
+  &#39;OTHER-PDSCLMDA&#39;: 0.3918301531846278,
+  &#39;OTHER-TV&#39;: 0.24337479718766897,
+  &#39;OTHER-BUSDEV&#39;: 0.0,
+  &#39;OTHER-OTHER&#39;: 0.0,
+  &#39;OTHER-DISPLAY&#39;: 0.5,
+  &#39;DISPLAY-REF&#39;: 0.22845377343374462,
+  &#39;DISPLAY-INTINT&#39;: 0.18414573742788878,
+  &#39;DISPLAY-RADIO&#39;: 0.39003143481272307,
+  &#39;DISPLAY-INTER&#39;: 0.12185547187950647,
+  &#39;DISPLAY-PPC&#39;: 0.10169165705497883,
+  &#39;DISPLAY-DIRMAIL&#39;: 0.043252595155709346,
+  &#39;DISPLAY-PRINT&#39;: 0.08477508650519033,
+  &#39;DISPLAY-OUTDOOR&#39;: 0.2782816830435878,
+  &#39;DISPLAY-EMAIL&#39;: 0.125,
+  &#39;DISPLAY-PDSCLMDA&#39;: 0.006584251545283521,
+  &#39;DISPLAY-TV&#39;: 0.045700378583017856,
+  &#39;DISPLAY-BUSDEV&#39;: 0.5,
+  &#39;DISPLAY-OTHER&#39;: 0.5,
+  &#39;DISPLAY-DISPLAY&#39;: 0.0},
+ &#39;PrevEdCode&#39;: {&#39;SOMECOLL-SOMECOLL&#39;: 0.0,
+  &#39;SOMECOLL-ASSOC&#39;: 0.006055085697153387,
+  &#39;SOMECOLL-BACH&#39;: 0.028304113402384274,
+  &#39;SOMECOLL-UN&#39;: 0.0021694788091286723,
+  &#39;SOMECOLL-HS&#39;: 0.004988619021342755,
+  &#39;SOMECOLL-GED&#39;: 0.20277745874569664,
+  &#39;SOMECOLL-INHS&#39;: 1.3396093969298564,
+  &#39;SOMECOLL-MAST&#39;: 1.3396093969298564,
+  &#39;ASSOC-SOMECOLL&#39;: 0.006055085697153387,
+  &#39;ASSOC-ASSOC&#39;: 0.0,
+  &#39;ASSOC-BACH&#39;: 0.008176469506664077,
+  &#39;ASSOC-UN&#39;: 0.015473393406851417,
+  &#39;ASSOC-HS&#39;: 5.161380099007493e-05,
+  &#39;ASSOC-GED&#39;: 0.13875159438775508,
+  &#39;ASSOC-INHS&#39;: 1.1655373086734695,
+  &#39;ASSOC-MAST&#39;: 1.1655373086734695,
+  &#39;BACH-SOMECOLL&#39;: 0.028304113402384274,
+  &#39;BACH-ASSOC&#39;: 0.008176469506664077,
+  &#39;BACH-BACH&#39;: 0.0,
+  &#39;BACH-UN&#39;: 0.0461458829486895,
+  &#39;BACH-HS&#39;: 0.009527342588811497,
+  &#39;BACH-GED&#39;: 0.07956343874107916,
+  &#39;BACH-INHS&#39;: 0.9784705425662158,
+  &#39;BACH-MAST&#39;: 0.9784705425662158,
+  &#39;UN-SOMECOLL&#39;: 0.0021694788091286723,
+  &#39;UN-ASSOC&#39;: 0.015473393406851417,
+  &#39;UN-BACH&#39;: 0.0461458829486895,
+  &#39;UN-UN&#39;: 0.0,
+  &#39;UN-HS&#39;: 0.013737673273801893,
+  &#39;UN-GED&#39;: 0.24689554419284143,
+  &#39;UN-INHS&#39;: 1.4495982468955442,
+  &#39;UN-MAST&#39;: 1.4495982468955442,
+  &#39;HS-SOMECOLL&#39;: 0.004988619021342755,
+  &#39;HS-ASSOC&#39;: 5.161380099007493e-05,
+  &#39;HS-BACH&#39;: 0.009527342588811497,
+  &#39;HS-UN&#39;: 0.013737673273801893,
+  &#39;HS-HS&#39;: 0.0,
+  &#39;HS-GED&#39;: 0.14415540294595838,
+  &#39;HS-INHS&#39;: 1.18110121575384,
+  &#39;HS-MAST&#39;: 1.18110121575384,
+  &#39;GED-SOMECOLL&#39;: 0.20277745874569664,
+  &#39;GED-ASSOC&#39;: 0.13875159438775508,
+  &#39;GED-BACH&#39;: 0.07956343874107916,
+  &#39;GED-UN&#39;: 0.24689554419284143,
+  &#39;GED-HS&#39;: 0.14415540294595838,
+  &#39;GED-GED&#39;: 0.0,
+  &#39;GED-INHS&#39;: 0.5,
+  &#39;GED-MAST&#39;: 0.5,
+  &#39;INHS-SOMECOLL&#39;: 1.3396093969298564,
+  &#39;INHS-ASSOC&#39;: 1.1655373086734695,
+  &#39;INHS-BACH&#39;: 0.9784705425662158,
+  &#39;INHS-UN&#39;: 1.4495982468955442,
+  &#39;INHS-HS&#39;: 1.18110121575384,
+  &#39;INHS-GED&#39;: 0.5,
+  &#39;INHS-INHS&#39;: 0.0,
+  &#39;INHS-MAST&#39;: 0.0,
+  &#39;MAST-SOMECOLL&#39;: 1.3396093969298564,
+  &#39;MAST-ASSOC&#39;: 1.1655373086734695,
+  &#39;MAST-BACH&#39;: 0.9784705425662158,
+  &#39;MAST-UN&#39;: 1.4495982468955442,
+  &#39;MAST-HS&#39;: 1.18110121575384,
+  &#39;MAST-GED&#39;: 0.5,
+  &#39;MAST-INHS&#39;: 0.0,
+  &#39;MAST-MAST&#39;: 0.0},
+ &#39;AdmRepName&#39;: {&#39;19-19&#39;: 0.0,
+  &#39;19-15&#39;: 0.0,
+  &#39;19-30&#39;: 0.32000000000000006,
+  &#39;19-7&#39;: 0.09370809745232508,
+  &#39;19-14&#39;: 0.09921487603305787,
+  &#39;19-18&#39;: 0.23243801652892562,
+  &#39;19-2&#39;: 0.0,
+  &#39;19-3&#39;: 0.0,
+  &#39;19-13&#39;: 0.21037253469685904,
+  &#39;19-6&#39;: 0.0,
+  &#39;19-31&#39;: 0.29585798816568043,
+  &#39;19-1&#39;: 0.0,
+  &#39;19-8&#39;: 0.2753846762390728,
+  &#39;19-9&#39;: 0.0,
+  &#39;19-5&#39;: 0.0,
+  &#39;19-16&#39;: 0.0,
+  &#39;19-23&#39;: 0.0,
+  &#39;19-20&#39;: 0.0,
+  &#39;19-24&#39;: 0.0,
+  &#39;19-21&#39;: 0.0,
+  &#39;19-4&#39;: 0.28125,
+  &#39;19-12&#39;: 0.0,
+  &#39;19-26&#39;: 0.22222222222222224,
+  &#39;19-27&#39;: 0.0,
+  &#39;19-25&#39;: 0.78125,
+  &#39;19-28&#39;: 0.0,
+  &#39;19-11&#39;: 0.0,
+  &#39;19-10&#39;: 0.0,
+  &#39;19-29&#39;: 0.0,
+  &#39;19-17&#39;: 0.0,
+  &#39;19-22&#39;: 0.0,
+  &#39;15-19&#39;: 0.0,
+  &#39;15-15&#39;: 0.0,
+  &#39;15-30&#39;: 0.32000000000000006,
+  &#39;15-7&#39;: 0.09370809745232508,
+  &#39;15-14&#39;: 0.09921487603305787,
+  &#39;15-18&#39;: 0.23243801652892562,
+  &#39;15-2&#39;: 0.0,
+  &#39;15-3&#39;: 0.0,
+  &#39;15-13&#39;: 0.21037253469685904,
+  &#39;15-6&#39;: 0.0,
+  &#39;15-31&#39;: 0.29585798816568043,
+  &#39;15-1&#39;: 0.0,
+  &#39;15-8&#39;: 0.2753846762390728,
+  &#39;15-9&#39;: 0.0,
+  &#39;15-5&#39;: 0.0,
+  &#39;15-16&#39;: 0.0,
+  &#39;15-23&#39;: 0.0,
+  &#39;15-20&#39;: 0.0,
+  &#39;15-24&#39;: 0.0,
+  &#39;15-21&#39;: 0.0,
+  &#39;15-4&#39;: 0.28125,
+  &#39;15-12&#39;: 0.0,
+  &#39;15-26&#39;: 0.22222222222222224,
+  &#39;15-27&#39;: 0.0,
+  &#39;15-25&#39;: 0.78125,
+  &#39;15-28&#39;: 0.0,
+  &#39;15-11&#39;: 0.0,
+  &#39;15-10&#39;: 0.0,
+  &#39;15-29&#39;: 0.0,
+  &#39;15-17&#39;: 0.0,
+  &#39;15-22&#39;: 0.0,
+  &#39;30-19&#39;: 0.32000000000000006,
+  &#39;30-15&#39;: 0.32000000000000006,
+  &#39;30-30&#39;: 0.0,
+  &#39;30-7&#39;: 0.06737536042191368,
+  &#39;30-14&#39;: 0.0628512396694215,
+  &#39;30-18&#39;: 0.00698347107438017,
+  &#39;30-2&#39;: 0.32000000000000006,
+  &#39;30-3&#39;: 0.32000000000000006,
+  &#39;30-13&#39;: 0.011453615777940103,
+  &#39;30-6&#39;: 0.32000000000000006,
+  &#39;30-31&#39;: 0.00047337278106509054,
+  &#39;30-1&#39;: 0.32000000000000006,
+  &#39;30-8&#39;: 0.0016739844151734528,
+  &#39;30-9&#39;: 0.32000000000000006,
+  &#39;30-5&#39;: 0.32000000000000006,
+  &#39;30-16&#39;: 0.32000000000000006,
+  &#39;30-23&#39;: 0.32000000000000006,
+  &#39;30-20&#39;: 0.32000000000000006,
+  &#39;30-24&#39;: 0.32000000000000006,
+  &#39;30-21&#39;: 0.32000000000000006,
+  &#39;30-4&#39;: 0.0012500000000000022,
+  &#39;30-12&#39;: 0.32000000000000006,
+  &#39;30-26&#39;: 0.008888888888888892,
+  &#39;30-27&#39;: 0.32000000000000006,
+  &#39;30-25&#39;: 0.10124999999999998,
+  &#39;30-28&#39;: 0.32000000000000006,
+  &#39;30-11&#39;: 0.32000000000000006,
+  &#39;30-10&#39;: 0.32000000000000006,
+  &#39;30-29&#39;: 0.32000000000000006,
+  &#39;30-17&#39;: 0.32000000000000006,
+  &#39;30-22&#39;: 0.32000000000000006,
+  &#39;7-19&#39;: 0.09370809745232508,
+  &#39;7-15&#39;: 0.09370809745232508,
+  &#39;7-30&#39;: 0.06737536042191368,
+  &#39;7-7&#39;: 0.0,
+  &#39;7-14&#39;: 7.860854799476016e-05,
+  &#39;7-18&#39;: 0.030976167648513697,
+  &#39;7-2&#39;: 0.09370809745232508,
+  &#39;7-3&#39;: 0.09370809745232508,
+  &#39;7-13&#39;: 0.02327030482722891,
+  &#39;7-6&#39;: 0.09370809745232508,
+  &#39;7-31&#39;: 0.056553838473379185,
+  &#39;7-1&#39;: 0.09370809745232508,
+  &#39;7-8&#39;: 0.04780925977953825,
+  &#39;7-9&#39;: 0.09370809745232508,
+  &#39;7-5&#39;: 0.09370809745232508,
+  &#39;7-16&#39;: 0.09370809745232508,
+  &#39;7-23&#39;: 0.09370809745232508,
+  &#39;7-20&#39;: 0.09370809745232508,
+  &#39;7-24&#39;: 0.09370809745232508,
+  &#39;7-21&#39;: 0.09370809745232508,
+  &#39;7-4&#39;: 0.050271156486314375,
+  &#39;7-12&#39;: 0.09370809745232508,
+  &#39;7-26&#39;: 0.027319705482537794,
+  &#39;7-27&#39;: 0.09370809745232508,
+  &#39;7-25&#39;: 0.33381319584230723,
+  &#39;7-28&#39;: 0.09370809745232508,
+  &#39;7-11&#39;: 0.09370809745232508,
+  &#39;7-10&#39;: 0.09370809745232508,
+  &#39;7-29&#39;: 0.09370809745232508,
+  &#39;7-17&#39;: 0.09370809745232508,
+  &#39;7-22&#39;: 0.09370809745232508,
+  &#39;14-19&#39;: 0.09921487603305787,
+  &#39;14-15&#39;: 0.09921487603305787,
+  &#39;14-30&#39;: 0.0628512396694215,
+  &#39;14-7&#39;: 7.860854799476016e-05,
+  &#39;14-14&#39;: 0.0,
+  &#39;14-18&#39;: 0.027933884297520653,
+  &#39;14-2&#39;: 0.09921487603305787,
+  &#39;14-3&#39;: 0.09921487603305787,
+  &#39;14-13&#39;: 0.02064392178642793,
+  &#39;14-6&#39;: 0.09921487603305787,
+  &#39;14-31&#39;: 0.05241552154139565,
+  &#39;14-1&#39;: 0.09921487603305787,
+  &#39;14-8&#39;: 0.044010644324732145,
+  &#39;14-9&#39;: 0.09921487603305787,
+  &#39;14-5&#39;: 0.09921487603305787,
+  &#39;14-16&#39;: 0.09921487603305787,
+  &#39;14-23&#39;: 0.09921487603305787,
+  &#39;14-20&#39;: 0.09921487603305787,
+  &#39;14-24&#39;: 0.09921487603305787,
+  &#39;14-21&#39;: 0.09921487603305787,
+  &#39;14-4&#39;: 0.04637396694214875,
+  &#39;14-12&#39;: 0.09921487603305787,
+  &#39;14-26&#39;: 0.0244674012855831,
+  &#39;14-27&#39;: 0.09921487603305787,
+  &#39;14-25&#39;: 0.323646694214876,
+  &#39;14-28&#39;: 0.09921487603305787,
+  &#39;14-11&#39;: 0.09921487603305787,
+  &#39;14-10&#39;: 0.09921487603305787,
+  &#39;14-29&#39;: 0.09921487603305787,
+  &#39;14-17&#39;: 0.09921487603305787,
+  &#39;14-22&#39;: 0.09921487603305787,
+  &#39;18-19&#39;: 0.23243801652892562,
+  &#39;18-15&#39;: 0.23243801652892562,
+  &#39;18-30&#39;: 0.00698347107438017,
+  &#39;18-7&#39;: 0.030976167648513697,
+  &#39;18-14&#39;: 0.027933884297520653,
+  &#39;18-18&#39;: 0.0,
+  &#39;18-2&#39;: 0.23243801652892562,
+  &#39;18-3&#39;: 0.23243801652892562,
+  &#39;18-13&#39;: 0.0005501089653423796,
+  &#39;18-6&#39;: 0.23243801652892562,
+  &#39;18-31&#39;: 0.003820480219081616,
+  &#39;18-1&#39;: 0.23243801652892562,
+  &#39;18-8&#39;: 0.0018192622362660227,
+  &#39;18-9&#39;: 0.23243801652892562,
+  &#39;18-5&#39;: 0.23243801652892562,
+  &#39;18-16&#39;: 0.23243801652892562,
+  &#39;18-23&#39;: 0.23243801652892562,
+  &#39;18-20&#39;: 0.23243801652892562,
+  &#39;18-24&#39;: 0.23243801652892562,
+  &#39;18-21&#39;: 0.23243801652892562,
+  &#39;18-4&#39;: 0.002324380165289256,
+  &#39;18-12&#39;: 0.23243801652892562,
+  &#39;18-26&#39;: 0.0001147842056932964,
+  &#39;18-27&#39;: 0.23243801652892562,
+  &#39;18-25&#39;: 0.16141528925619836,
+  &#39;18-28&#39;: 0.23243801652892562,
+  &#39;18-11&#39;: 0.23243801652892562,
+  &#39;18-10&#39;: 0.23243801652892562,
+  &#39;18-29&#39;: 0.23243801652892562,
+  &#39;18-17&#39;: 0.23243801652892562,
+  &#39;18-22&#39;: 0.23243801652892562,
+  &#39;2-19&#39;: 0.0,
+  &#39;2-15&#39;: 0.0,
+  &#39;2-30&#39;: 0.32000000000000006,
+  &#39;2-7&#39;: 0.09370809745232508,
+  &#39;2-14&#39;: 0.09921487603305787,
+  &#39;2-18&#39;: 0.23243801652892562,
+  &#39;2-2&#39;: 0.0,
+  &#39;2-3&#39;: 0.0,
+  &#39;2-13&#39;: 0.21037253469685904,
+  &#39;2-6&#39;: 0.0,
+  &#39;2-31&#39;: 0.29585798816568043,
+  &#39;2-1&#39;: 0.0,
+  &#39;2-8&#39;: 0.2753846762390728,
+  &#39;2-9&#39;: 0.0,
+  &#39;2-5&#39;: 0.0,
+  &#39;2-16&#39;: 0.0,
+  &#39;2-23&#39;: 0.0,
+  &#39;2-20&#39;: 0.0,
+  &#39;2-24&#39;: 0.0,
+  &#39;2-21&#39;: 0.0,
+  &#39;2-4&#39;: 0.28125,
+  &#39;2-12&#39;: 0.0,
+  &#39;2-26&#39;: 0.22222222222222224,
+  &#39;2-27&#39;: 0.0,
+  &#39;2-25&#39;: 0.78125,
+  &#39;2-28&#39;: 0.0,
+  &#39;2-11&#39;: 0.0,
+  &#39;2-10&#39;: 0.0,
+  &#39;2-29&#39;: 0.0,
+  &#39;2-17&#39;: 0.0,
+  &#39;2-22&#39;: 0.0,
+  &#39;3-19&#39;: 0.0,
+  &#39;3-15&#39;: 0.0,
+  &#39;3-30&#39;: 0.32000000000000006,
+  &#39;3-7&#39;: 0.09370809745232508,
+  &#39;3-14&#39;: 0.09921487603305787,
+  &#39;3-18&#39;: 0.23243801652892562,
+  &#39;3-2&#39;: 0.0,
+  &#39;3-3&#39;: 0.0,
+  &#39;3-13&#39;: 0.21037253469685904,
+  &#39;3-6&#39;: 0.0,
+  &#39;3-31&#39;: 0.29585798816568043,
+  &#39;3-1&#39;: 0.0,
+  &#39;3-8&#39;: 0.2753846762390728,
+  &#39;3-9&#39;: 0.0,
+  &#39;3-5&#39;: 0.0,
+  &#39;3-16&#39;: 0.0,
+  &#39;3-23&#39;: 0.0,
+  &#39;3-20&#39;: 0.0,
+  &#39;3-24&#39;: 0.0,
+  &#39;3-21&#39;: 0.0,
+  &#39;3-4&#39;: 0.28125,
+  &#39;3-12&#39;: 0.0,
+  &#39;3-26&#39;: 0.22222222222222224,
+  &#39;3-27&#39;: 0.0,
+  &#39;3-25&#39;: 0.78125,
+  &#39;3-28&#39;: 0.0,
+  &#39;3-11&#39;: 0.0,
+  &#39;3-10&#39;: 0.0,
+  &#39;3-29&#39;: 0.0,
+  &#39;3-17&#39;: 0.0,
+  &#39;3-22&#39;: 0.0,
+  &#39;13-19&#39;: 0.21037253469685904,
+  &#39;13-15&#39;: 0.21037253469685904,
+  &#39;13-30&#39;: 0.011453615777940103,
+  &#39;13-7&#39;: 0.02327030482722891,
+  &#39;13-14&#39;: 0.02064392178642793,
+  &#39;13-18&#39;: 0.0005501089653423796,
+  &#39;13-2&#39;: 0.21037253469685904,
+  &#39;13-3&#39;: 0.21037253469685904,
+  &#39;13-13&#39;: 0.0,
+  &#39;13-6&#39;: 0.21037253469685904,
+  &#39;13-31&#39;: 0.007270023902040528,
+  &#39;13-1&#39;: 0.21037253469685904,
+  &#39;13-8&#39;: 0.004370163511148566,
+  &#39;13-9&#39;: 0.21037253469685904,
+  &#39;13-5&#39;: 0.21037253469685904,
+  &#39;13-16&#39;: 0.21037253469685904,
+  &#39;13-23&#39;: 0.21037253469685904,
+  &#39;13-20&#39;: 0.21037253469685904,
+  &#39;13-24&#39;: 0.21037253469685904,
+  &#39;13-21&#39;: 0.21037253469685904,
+  &#39;13-4&#39;: 0.005136048210372531,
+  &#39;13-12&#39;: 0.21037253469685904,
+  &#39;13-26&#39;: 0.00016232448664881065,
+  &#39;13-27&#39;: 0.21037253469685904,
+  &#39;13-25&#39;: 0.1808117238860482,
+  &#39;13-28&#39;: 0.21037253469685904,
+  &#39;13-11&#39;: 0.21037253469685904,
+  &#39;13-10&#39;: 0.21037253469685904,
+  &#39;13-29&#39;: 0.21037253469685904,
+  &#39;13-17&#39;: 0.21037253469685904,
+  &#39;13-22&#39;: 0.21037253469685904,
+  &#39;6-19&#39;: 0.0,
+  &#39;6-15&#39;: 0.0,
+  &#39;6-30&#39;: 0.32000000000000006,
+  &#39;6-7&#39;: 0.09370809745232508,
+  &#39;6-14&#39;: 0.09921487603305787,
+  &#39;6-18&#39;: 0.23243801652892562,
+  &#39;6-2&#39;: 0.0,
+  &#39;6-3&#39;: 0.0,
+  &#39;6-13&#39;: 0.21037253469685904,
+  &#39;6-6&#39;: 0.0,
+  &#39;6-31&#39;: 0.29585798816568043,
+  &#39;6-1&#39;: 0.0,
+  &#39;6-8&#39;: 0.2753846762390728,
+  &#39;6-9&#39;: 0.0,
+  &#39;6-5&#39;: 0.0,
+  &#39;6-16&#39;: 0.0,
+  &#39;6-23&#39;: 0.0,
+  &#39;6-20&#39;: 0.0,
+  &#39;6-24&#39;: 0.0,
+  &#39;6-21&#39;: 0.0,
+  &#39;6-4&#39;: 0.28125,
+  &#39;6-12&#39;: 0.0,
+  &#39;6-26&#39;: 0.22222222222222224,
+  &#39;6-27&#39;: 0.0,
+  &#39;6-25&#39;: 0.78125,
+  &#39;6-28&#39;: 0.0,
+  &#39;6-11&#39;: 0.0,
+  &#39;6-10&#39;: 0.0,
+  &#39;6-29&#39;: 0.0,
+  &#39;6-17&#39;: 0.0,
+  &#39;6-22&#39;: 0.0,
+  &#39;31-19&#39;: 0.29585798816568043,
+  &#39;31-15&#39;: 0.29585798816568043,
+  &#39;31-30&#39;: 0.00047337278106509054,
+  &#39;31-7&#39;: 0.056553838473379185,
+  &#39;31-14&#39;: 0.05241552154139565,
+  &#39;31-18&#39;: 0.003820480219081616,
+  &#39;31-2&#39;: 0.29585798816568043,
+  &#39;31-3&#39;: 0.29585798816568043,
+  &#39;31-13&#39;: 0.007270023902040528,
+  &#39;31-6&#39;: 0.29585798816568043,
+  &#39;31-31&#39;: 0.0,
+  &#39;31-1&#39;: 0.29585798816568043,
+  &#39;31-8&#39;: 0.0003669991894654377,
+  &#39;31-9&#39;: 0.29585798816568043,
+  &#39;31-5&#39;: 0.29585798816568043,
+  &#39;31-16&#39;: 0.29585798816568043,
+  &#39;31-23&#39;: 0.29585798816568043,
+  &#39;31-20&#39;: 0.29585798816568043,
+  &#39;31-24&#39;: 0.29585798816568043,
+  &#39;31-21&#39;: 0.29585798816568043,
+  &#39;31-4&#39;: 0.00018491124260355005,
+  &#39;31-12&#39;: 0.29585798816568043,
+  &#39;31-26&#39;: 0.005259697567389872,
+  &#39;31-27&#39;: 0.29585798816568043,
+  &#39;31-25&#39;: 0.11556952662721894,
+  &#39;31-28&#39;: 0.29585798816568043,
+  &#39;31-11&#39;: 0.29585798816568043,
+  &#39;31-10&#39;: 0.29585798816568043,
+  &#39;31-29&#39;: 0.29585798816568043,
+  &#39;31-17&#39;: 0.29585798816568043,
+  &#39;31-22&#39;: 0.29585798816568043,
+  &#39;1-19&#39;: 0.0,
+  &#39;1-15&#39;: 0.0,
+  &#39;1-30&#39;: 0.32000000000000006,
+  &#39;1-7&#39;: 0.09370809745232508,
+  &#39;1-14&#39;: 0.09921487603305787,
+  &#39;1-18&#39;: 0.23243801652892562,
+  &#39;1-2&#39;: 0.0,
+  &#39;1-3&#39;: 0.0,
+  &#39;1-13&#39;: 0.21037253469685904,
+  &#39;1-6&#39;: 0.0,
+  &#39;1-31&#39;: 0.29585798816568043,
+  &#39;1-1&#39;: 0.0,
+  &#39;1-8&#39;: 0.2753846762390728,
+  &#39;1-9&#39;: 0.0,
+  &#39;1-5&#39;: 0.0,
+  &#39;1-16&#39;: 0.0,
+  &#39;1-23&#39;: 0.0,
+  &#39;1-20&#39;: 0.0,
+  &#39;1-24&#39;: 0.0,
+  &#39;1-21&#39;: 0.0,
+  &#39;1-4&#39;: 0.28125,
+  &#39;1-12&#39;: 0.0,
+  &#39;1-26&#39;: 0.22222222222222224,
+  &#39;1-27&#39;: 0.0,
+  &#39;1-25&#39;: 0.78125,
+  &#39;1-28&#39;: 0.0,
+  &#39;1-11&#39;: 0.0,
+  &#39;1-10&#39;: 0.0,
+  &#39;1-29&#39;: 0.0,
+  &#39;1-17&#39;: 0.0,
+  &#39;1-22&#39;: 0.0,
+  &#39;8-19&#39;: 0.2753846762390728,
+  &#39;8-15&#39;: 0.2753846762390728,
+  &#39;8-30&#39;: 0.0016739844151734528,
+  &#39;8-7&#39;: 0.04780925977953825,
+  &#39;8-14&#39;: 0.044010644324732145,
+  &#39;8-18&#39;: 0.0018192622362660227,
+  &#39;8-2&#39;: 0.2753846762390728,
+  &#39;8-3&#39;: 0.2753846762390728,
+  &#39;8-13&#39;: 0.004370163511148566,
+  &#39;8-6&#39;: 0.2753846762390728,
+  &#39;8-31&#39;: 0.0003669991894654377,
+  &#39;8-1&#39;: 0.2753846762390728,
+  &#39;8-8&#39;: 0.0,
+  &#39;8-9&#39;: 0.2753846762390728,
+  &#39;8-5&#39;: 0.2753846762390728,
+  &#39;8-16&#39;: 0.2753846762390728,
+  &#39;8-23&#39;: 0.2753846762390728,
+  &#39;8-20&#39;: 0.2753846762390728,
+  &#39;8-24&#39;: 0.2753846762390728,
+  &#39;8-21&#39;: 0.2753846762390728,
+  &#39;8-4&#39;: 3.09026541671611e-05,
+  &#39;8-12&#39;: 0.2753846762390728,
+  &#39;8-26&#39;: 0.0028479886080455667,
+  &#39;8-27&#39;: 0.2753846762390728,
+  &#39;8-25&#39;: 0.12896172026423006,
+  &#39;8-28&#39;: 0.2753846762390728,
+  &#39;8-11&#39;: 0.2753846762390728,
+  &#39;8-10&#39;: 0.2753846762390728,
+  &#39;8-29&#39;: 0.2753846762390728,
+  &#39;8-17&#39;: 0.2753846762390728,
+  &#39;8-22&#39;: 0.2753846762390728,
+  &#39;9-19&#39;: 0.0,
+  &#39;9-15&#39;: 0.0,
+  &#39;9-30&#39;: 0.32000000000000006,
+  &#39;9-7&#39;: 0.09370809745232508,
+  &#39;9-14&#39;: 0.09921487603305787,
+  &#39;9-18&#39;: 0.23243801652892562,
+  &#39;9-2&#39;: 0.0,
+  &#39;9-3&#39;: 0.0,
+  &#39;9-13&#39;: 0.21037253469685904,
+  &#39;9-6&#39;: 0.0,
+  &#39;9-31&#39;: 0.29585798816568043,
+  &#39;9-1&#39;: 0.0,
+  &#39;9-8&#39;: 0.2753846762390728,
+  &#39;9-9&#39;: 0.0,
+  &#39;9-5&#39;: 0.0,
+  &#39;9-16&#39;: 0.0,
+  &#39;9-23&#39;: 0.0,
+  &#39;9-20&#39;: 0.0,
+  &#39;9-24&#39;: 0.0,
+  &#39;9-21&#39;: 0.0,
+  &#39;9-4&#39;: 0.28125,
+  &#39;9-12&#39;: 0.0,
+  &#39;9-26&#39;: 0.22222222222222224,
+  &#39;9-27&#39;: 0.0,
+  &#39;9-25&#39;: 0.78125,
+  &#39;9-28&#39;: 0.0,
+  &#39;9-11&#39;: 0.0,
+  &#39;9-10&#39;: 0.0,
+  &#39;9-29&#39;: 0.0,
+  &#39;9-17&#39;: 0.0,
+  &#39;9-22&#39;: 0.0,
+  &#39;5-19&#39;: 0.0,
+  &#39;5-15&#39;: 0.0,
+  &#39;5-30&#39;: 0.32000000000000006,
+  &#39;5-7&#39;: 0.09370809745232508,
+  &#39;5-14&#39;: 0.09921487603305787,
+  &#39;5-18&#39;: 0.23243801652892562,
+  &#39;5-2&#39;: 0.0,
+  &#39;5-3&#39;: 0.0,
+  &#39;5-13&#39;: 0.21037253469685904,
+  &#39;5-6&#39;: 0.0,
+  &#39;5-31&#39;: 0.29585798816568043,
+  &#39;5-1&#39;: 0.0,
+  &#39;5-8&#39;: 0.2753846762390728,
+  &#39;5-9&#39;: 0.0,
+  &#39;5-5&#39;: 0.0,
+  &#39;5-16&#39;: 0.0,
+  &#39;5-23&#39;: 0.0,
+  &#39;5-20&#39;: 0.0,
+  &#39;5-24&#39;: 0.0,
+  &#39;5-21&#39;: 0.0,
+  &#39;5-4&#39;: 0.28125,
+  &#39;5-12&#39;: 0.0,
+  &#39;5-26&#39;: 0.22222222222222224,
+  &#39;5-27&#39;: 0.0,
+  &#39;5-25&#39;: 0.78125,
+  &#39;5-28&#39;: 0.0,
+  &#39;5-11&#39;: 0.0,
+  &#39;5-10&#39;: 0.0,
+  &#39;5-29&#39;: 0.0,
+  &#39;5-17&#39;: 0.0,
+  &#39;5-22&#39;: 0.0,
+  &#39;16-19&#39;: 0.0,
+  &#39;16-15&#39;: 0.0,
+  &#39;16-30&#39;: 0.32000000000000006,
+  &#39;16-7&#39;: 0.09370809745232508,
+  &#39;16-14&#39;: 0.09921487603305787,
+  &#39;16-18&#39;: 0.23243801652892562,
+  &#39;16-2&#39;: 0.0,
+  &#39;16-3&#39;: 0.0,
+  &#39;16-13&#39;: 0.21037253469685904,
+  &#39;16-6&#39;: 0.0,
+  &#39;16-31&#39;: 0.29585798816568043,
+  &#39;16-1&#39;: 0.0,
+  &#39;16-8&#39;: 0.2753846762390728,
+  &#39;16-9&#39;: 0.0,
+  &#39;16-5&#39;: 0.0,
+  &#39;16-16&#39;: 0.0,
+  &#39;16-23&#39;: 0.0,
+  &#39;16-20&#39;: 0.0,
+  &#39;16-24&#39;: 0.0,
+  &#39;16-21&#39;: 0.0,
+  &#39;16-4&#39;: 0.28125,
+  &#39;16-12&#39;: 0.0,
+  &#39;16-26&#39;: 0.22222222222222224,
+  &#39;16-27&#39;: 0.0,
+  &#39;16-25&#39;: 0.78125,
+  &#39;16-28&#39;: 0.0,
+  &#39;16-11&#39;: 0.0,
+  &#39;16-10&#39;: 0.0,
+  &#39;16-29&#39;: 0.0,
+  &#39;16-17&#39;: 0.0,
+  &#39;16-22&#39;: 0.0,
+  &#39;23-19&#39;: 0.0,
+  &#39;23-15&#39;: 0.0,
+  &#39;23-30&#39;: 0.32000000000000006,
+  &#39;23-7&#39;: 0.09370809745232508,
+  &#39;23-14&#39;: 0.09921487603305787,
+  &#39;23-18&#39;: 0.23243801652892562,
+  &#39;23-2&#39;: 0.0,
+  &#39;23-3&#39;: 0.0,
+  &#39;23-13&#39;: 0.21037253469685904,
+  &#39;23-6&#39;: 0.0,
+  &#39;23-31&#39;: 0.29585798816568043,
+  &#39;23-1&#39;: 0.0,
+  &#39;23-8&#39;: 0.2753846762390728,
+  &#39;23-9&#39;: 0.0,
+  &#39;23-5&#39;: 0.0,
+  &#39;23-16&#39;: 0.0,
+  &#39;23-23&#39;: 0.0,
+  &#39;23-20&#39;: 0.0,
+  &#39;23-24&#39;: 0.0,
+  &#39;23-21&#39;: 0.0,
+  &#39;23-4&#39;: 0.28125,
+  &#39;23-12&#39;: 0.0,
+  &#39;23-26&#39;: 0.22222222222222224,
+  &#39;23-27&#39;: 0.0,
+  &#39;23-25&#39;: 0.78125,
+  &#39;23-28&#39;: 0.0,
+  &#39;23-11&#39;: 0.0,
+  &#39;23-10&#39;: 0.0,
+  &#39;23-29&#39;: 0.0,
+  &#39;23-17&#39;: 0.0,
+  &#39;23-22&#39;: 0.0,
+  &#39;20-19&#39;: 0.0,
+  &#39;20-15&#39;: 0.0,
+  &#39;20-30&#39;: 0.32000000000000006,
+  &#39;20-7&#39;: 0.09370809745232508,
+  &#39;20-14&#39;: 0.09921487603305787,
+  &#39;20-18&#39;: 0.23243801652892562,
+  &#39;20-2&#39;: 0.0,
+  &#39;20-3&#39;: 0.0,
+  &#39;20-13&#39;: 0.21037253469685904,
+  &#39;20-6&#39;: 0.0,
+  &#39;20-31&#39;: 0.29585798816568043,
+  &#39;20-1&#39;: 0.0,
+  &#39;20-8&#39;: 0.2753846762390728,
+  &#39;20-9&#39;: 0.0,
+  &#39;20-5&#39;: 0.0,
+  &#39;20-16&#39;: 0.0,
+  &#39;20-23&#39;: 0.0,
+  &#39;20-20&#39;: 0.0,
+  &#39;20-24&#39;: 0.0,
+  &#39;20-21&#39;: 0.0,
+  &#39;20-4&#39;: 0.28125,
+  &#39;20-12&#39;: 0.0,
+  &#39;20-26&#39;: 0.22222222222222224,
+  &#39;20-27&#39;: 0.0,
+  &#39;20-25&#39;: 0.78125,
+  &#39;20-28&#39;: 0.0,
+  &#39;20-11&#39;: 0.0,
+  &#39;20-10&#39;: 0.0,
+  &#39;20-29&#39;: 0.0,
+  &#39;20-17&#39;: 0.0,
+  &#39;20-22&#39;: 0.0,
+  &#39;24-19&#39;: 0.0,
+  &#39;24-15&#39;: 0.0,
+  &#39;24-30&#39;: 0.32000000000000006,
+  &#39;24-7&#39;: 0.09370809745232508,
+  &#39;24-14&#39;: 0.09921487603305787,
+  &#39;24-18&#39;: 0.23243801652892562,
+  &#39;24-2&#39;: 0.0,
+  &#39;24-3&#39;: 0.0,
+  &#39;24-13&#39;: 0.21037253469685904,
+  &#39;24-6&#39;: 0.0,
+  &#39;24-31&#39;: 0.29585798816568043,
+  &#39;24-1&#39;: 0.0,
+  &#39;24-8&#39;: 0.2753846762390728,
+  &#39;24-9&#39;: 0.0,
+  &#39;24-5&#39;: 0.0,
+  &#39;24-16&#39;: 0.0,
+  &#39;24-23&#39;: 0.0,
+  &#39;24-20&#39;: 0.0,
+  &#39;24-24&#39;: 0.0,
+  &#39;24-21&#39;: 0.0,
+  &#39;24-4&#39;: 0.28125,
+  &#39;24-12&#39;: 0.0,
+  &#39;24-26&#39;: 0.22222222222222224,
+  &#39;24-27&#39;: 0.0,
+  &#39;24-25&#39;: 0.78125,
+  &#39;24-28&#39;: 0.0,
+  &#39;24-11&#39;: 0.0,
+  &#39;24-10&#39;: 0.0,
+  &#39;24-29&#39;: 0.0,
+  &#39;24-17&#39;: 0.0,
+  &#39;24-22&#39;: 0.0,
+  &#39;21-19&#39;: 0.0,
+  &#39;21-15&#39;: 0.0,
+  &#39;21-30&#39;: 0.32000000000000006,
+  &#39;21-7&#39;: 0.09370809745232508,
+  &#39;21-14&#39;: 0.09921487603305787,
+  &#39;21-18&#39;: 0.23243801652892562,
+  &#39;21-2&#39;: 0.0,
+  &#39;21-3&#39;: 0.0,
+  &#39;21-13&#39;: 0.21037253469685904,
+  &#39;21-6&#39;: 0.0,
+  &#39;21-31&#39;: 0.29585798816568043,
+  &#39;21-1&#39;: 0.0,
+  &#39;21-8&#39;: 0.2753846762390728,
+  &#39;21-9&#39;: 0.0,
+  &#39;21-5&#39;: 0.0,
+  &#39;21-16&#39;: 0.0,
+  &#39;21-23&#39;: 0.0,
+  &#39;21-20&#39;: 0.0,
+  &#39;21-24&#39;: 0.0,
+  &#39;21-21&#39;: 0.0,
+  &#39;21-4&#39;: 0.28125,
+  &#39;21-12&#39;: 0.0,
+  &#39;21-26&#39;: 0.22222222222222224,
+  &#39;21-27&#39;: 0.0,
+  &#39;21-25&#39;: 0.78125,
+  &#39;21-28&#39;: 0.0,
+  &#39;21-11&#39;: 0.0,
+  &#39;21-10&#39;: 0.0,
+  &#39;21-29&#39;: 0.0,
+  &#39;21-17&#39;: 0.0,
+  &#39;21-22&#39;: 0.0,
+  &#39;4-19&#39;: 0.28125,
+  &#39;4-15&#39;: 0.28125,
+  &#39;4-30&#39;: 0.0012500000000000022,
+  &#39;4-7&#39;: 0.050271156486314375,
+  &#39;4-14&#39;: 0.04637396694214875,
+  &#39;4-18&#39;: 0.002324380165289256,
+  &#39;4-2&#39;: 0.28125,
+  &#39;4-3&#39;: 0.28125,
+  &#39;4-13&#39;: 0.005136048210372531,
+  &#39;4-6&#39;: 0.28125,
+  &#39;4-31&#39;: 0.00018491124260355005,
+  &#39;4-1&#39;: 0.28125,
+  &#39;4-8&#39;: 3.09026541671611e-05,
+  &#39;4-9&#39;: 0.28125,
+  &#39;4-5&#39;: 0.28125,
+  &#39;4-16&#39;: 0.28125,
+  &#39;4-23&#39;: 0.28125,
+  &#39;4-20&#39;: 0.28125,
+  &#39;4-24&#39;: 0.28125,
+  &#39;4-21&#39;: 0.28125,
+  &#39;4-4&#39;: 0.0,
+  &#39;4-12&#39;: 0.28125,
+  &#39;4-26&#39;: 0.0034722222222222207,
+  &#39;4-27&#39;: 0.28125,
+  &#39;4-25&#39;: 0.125,
+  &#39;4-28&#39;: 0.28125,
+  &#39;4-11&#39;: 0.28125,
+  &#39;4-10&#39;: 0.28125,
+  &#39;4-29&#39;: 0.28125,
+  &#39;4-17&#39;: 0.28125,
+  &#39;4-22&#39;: 0.28125,
+  &#39;12-19&#39;: 0.0,
+  &#39;12-15&#39;: 0.0,
+  &#39;12-30&#39;: 0.32000000000000006,
+  &#39;12-7&#39;: 0.09370809745232508,
+  &#39;12-14&#39;: 0.09921487603305787,
+  &#39;12-18&#39;: 0.23243801652892562,
+  &#39;12-2&#39;: 0.0,
+  &#39;12-3&#39;: 0.0,
+  &#39;12-13&#39;: 0.21037253469685904,
+  &#39;12-6&#39;: 0.0,
+  &#39;12-31&#39;: 0.29585798816568043,
+  &#39;12-1&#39;: 0.0,
+  &#39;12-8&#39;: 0.2753846762390728,
+  &#39;12-9&#39;: 0.0,
+  &#39;12-5&#39;: 0.0,
+  &#39;12-16&#39;: 0.0,
+  &#39;12-23&#39;: 0.0,
+  &#39;12-20&#39;: 0.0,
+  &#39;12-24&#39;: 0.0,
+  &#39;12-21&#39;: 0.0,
+  &#39;12-4&#39;: 0.28125,
+  &#39;12-12&#39;: 0.0,
+  &#39;12-26&#39;: 0.22222222222222224,
+  &#39;12-27&#39;: 0.0,
+  &#39;12-25&#39;: 0.78125,
+  &#39;12-28&#39;: 0.0,
+  &#39;12-11&#39;: 0.0,
+  &#39;12-10&#39;: 0.0,
+  &#39;12-29&#39;: 0.0,
+  &#39;12-17&#39;: 0.0,
+  &#39;12-22&#39;: 0.0,
+  &#39;26-19&#39;: 0.22222222222222224,
+  &#39;26-15&#39;: 0.22222222222222224,
+  &#39;26-30&#39;: 0.008888888888888892,
+  &#39;26-7&#39;: 0.027319705482537794,
+  &#39;26-14&#39;: 0.0244674012855831,
+  &#39;26-18&#39;: 0.0001147842056932964,
+  &#39;26-2&#39;: 0.22222222222222224,
+  &#39;26-3&#39;: 0.22222222222222224,
+  &#39;26-13&#39;: 0.00016232448664881065,
+  &#39;26-6&#39;: 0.22222222222222224,
+  &#39;26-31&#39;: 0.005259697567389872,
+  &#39;26-1&#39;: 0.22222222222222224,
+  &#39;26-8&#39;: 0.0028479886080455667,
+  &#39;26-9&#39;: 0.22222222222222224,
+  &#39;26-5&#39;: 0.22222222222222224,
+  &#39;26-16&#39;: 0.22222222222222224,
+  &#39;26-23&#39;: 0.22222222222222224,
+  &#39;26-20&#39;: 0.22222222222222224,
+  &#39;26-24&#39;: 0.22222222222222224,
+  &#39;26-21&#39;: 0.22222222222222224,
+  &#39;26-4&#39;: 0.0034722222222222207,
+  &#39;26-12&#39;: 0.22222222222222224,
+  &#39;26-26&#39;: 0.0,
+  &#39;26-27&#39;: 0.22222222222222224,
+  &#39;26-25&#39;: 0.1701388888888889,
+  &#39;26-28&#39;: 0.22222222222222224,
+  &#39;26-11&#39;: 0.22222222222222224,
+  &#39;26-10&#39;: 0.22222222222222224,
+  &#39;26-29&#39;: 0.22222222222222224,
+  &#39;26-17&#39;: 0.22222222222222224,
+  &#39;26-22&#39;: 0.22222222222222224,
+  &#39;27-19&#39;: 0.0,
+  &#39;27-15&#39;: 0.0,
+  &#39;27-30&#39;: 0.32000000000000006,
+  &#39;27-7&#39;: 0.09370809745232508,
+  &#39;27-14&#39;: 0.09921487603305787,
+  &#39;27-18&#39;: 0.23243801652892562,
+  &#39;27-2&#39;: 0.0,
+  &#39;27-3&#39;: 0.0,
+  &#39;27-13&#39;: 0.21037253469685904,
+  &#39;27-6&#39;: 0.0,
+  &#39;27-31&#39;: 0.29585798816568043,
+  &#39;27-1&#39;: 0.0,
+  &#39;27-8&#39;: 0.2753846762390728,
+  &#39;27-9&#39;: 0.0,
+  &#39;27-5&#39;: 0.0,
+  &#39;27-16&#39;: 0.0,
+  &#39;27-23&#39;: 0.0,
+  &#39;27-20&#39;: 0.0,
+  &#39;27-24&#39;: 0.0,
+  &#39;27-21&#39;: 0.0,
+  &#39;27-4&#39;: 0.28125,
+  &#39;27-12&#39;: 0.0,
+  &#39;27-26&#39;: 0.22222222222222224,
+  &#39;27-27&#39;: 0.0,
+  &#39;27-25&#39;: 0.78125,
+  &#39;27-28&#39;: 0.0,
+  &#39;27-11&#39;: 0.0,
+  &#39;27-10&#39;: 0.0,
+  &#39;27-29&#39;: 0.0,
+  &#39;27-17&#39;: 0.0,
+  &#39;27-22&#39;: 0.0,
+  &#39;25-19&#39;: 0.78125,
+  &#39;25-15&#39;: 0.78125,
+  &#39;25-30&#39;: 0.10124999999999998,
+  &#39;25-7&#39;: 0.33381319584230723,
+  &#39;25-14&#39;: 0.323646694214876,
+  &#39;25-18&#39;: 0.16141528925619836,
+  &#39;25-2&#39;: 0.78125,
+  &#39;25-3&#39;: 0.78125,
+  &#39;25-13&#39;: 0.1808117238860482,
+  &#39;25-6&#39;: 0.78125,
+  &#39;25-31&#39;: 0.11556952662721894,
+  &#39;25-1&#39;: 0.78125,
+  &#39;25-8&#39;: 0.12896172026423006,
+  &#39;25-9&#39;: 0.78125,
+  &#39;25-5&#39;: 0.78125,
+  &#39;25-16&#39;: 0.78125,
+  &#39;25-23&#39;: 0.78125,
+  &#39;25-20&#39;: 0.78125,
+  &#39;25-24&#39;: 0.78125,
+  &#39;25-21&#39;: 0.78125,
+  &#39;25-4&#39;: 0.125,
+  &#39;25-12&#39;: 0.78125,
+  &#39;25-26&#39;: 0.1701388888888889,
+  &#39;25-27&#39;: 0.78125,
+  &#39;25-25&#39;: 0.0,
+  &#39;25-28&#39;: 0.78125,
+  &#39;25-11&#39;: 0.78125,
+  &#39;25-10&#39;: 0.78125,
+  &#39;25-29&#39;: 0.78125,
+  &#39;25-17&#39;: 0.78125,
+  &#39;25-22&#39;: 0.78125,
+  &#39;28-19&#39;: 0.0,
+  &#39;28-15&#39;: 0.0,
+  &#39;28-30&#39;: 0.32000000000000006,
+  &#39;28-7&#39;: 0.09370809745232508,
+  &#39;28-14&#39;: 0.09921487603305787,
+  &#39;28-18&#39;: 0.23243801652892562,
+  &#39;28-2&#39;: 0.0,
+  &#39;28-3&#39;: 0.0,
+  &#39;28-13&#39;: 0.21037253469685904,
+  &#39;28-6&#39;: 0.0,
+  &#39;28-31&#39;: 0.29585798816568043,
+  &#39;28-1&#39;: 0.0,
+  &#39;28-8&#39;: 0.2753846762390728,
+  &#39;28-9&#39;: 0.0,
+  &#39;28-5&#39;: 0.0,
+  &#39;28-16&#39;: 0.0,
+  &#39;28-23&#39;: 0.0,
+  &#39;28-20&#39;: 0.0,
+  &#39;28-24&#39;: 0.0,
+  &#39;28-21&#39;: 0.0,
+  &#39;28-4&#39;: 0.28125,
+  &#39;28-12&#39;: 0.0,
+  &#39;28-26&#39;: 0.22222222222222224,
+  &#39;28-27&#39;: 0.0,
+  &#39;28-25&#39;: 0.78125,
+  &#39;28-28&#39;: 0.0,
+  &#39;28-11&#39;: 0.0,
+  &#39;28-10&#39;: 0.0,
+  &#39;28-29&#39;: 0.0,
+  &#39;28-17&#39;: 0.0,
+  &#39;28-22&#39;: 0.0,
+  &#39;11-19&#39;: 0.0,
+  &#39;11-15&#39;: 0.0,
+  &#39;11-30&#39;: 0.32000000000000006,
+  &#39;11-7&#39;: 0.09370809745232508,
+  &#39;11-14&#39;: 0.09921487603305787,
+  &#39;11-18&#39;: 0.23243801652892562,
+  &#39;11-2&#39;: 0.0,
+  &#39;11-3&#39;: 0.0,
+  &#39;11-13&#39;: 0.21037253469685904,
+  &#39;11-6&#39;: 0.0,
+  &#39;11-31&#39;: 0.29585798816568043,
+  &#39;11-1&#39;: 0.0,
+  &#39;11-8&#39;: 0.2753846762390728,
+  &#39;11-9&#39;: 0.0,
+  &#39;11-5&#39;: 0.0,
+  &#39;11-16&#39;: 0.0,
+  &#39;11-23&#39;: 0.0,
+  &#39;11-20&#39;: 0.0,
+  &#39;11-24&#39;: 0.0,
+  &#39;11-21&#39;: 0.0,
+  &#39;11-4&#39;: 0.28125,
+  &#39;11-12&#39;: 0.0,
+  &#39;11-26&#39;: 0.22222222222222224,
+  &#39;11-27&#39;: 0.0,
+  &#39;11-25&#39;: 0.78125,
+  &#39;11-28&#39;: 0.0,
+  &#39;11-11&#39;: 0.0,
+  &#39;11-10&#39;: 0.0,
+  &#39;11-29&#39;: 0.0,
+  &#39;11-17&#39;: 0.0,
+  &#39;11-22&#39;: 0.0,
+  &#39;10-19&#39;: 0.0,
+  &#39;10-15&#39;: 0.0,
+  &#39;10-30&#39;: 0.32000000000000006,
+  &#39;10-7&#39;: 0.09370809745232508,
+  &#39;10-14&#39;: 0.09921487603305787,
+  &#39;10-18&#39;: 0.23243801652892562,
+  &#39;10-2&#39;: 0.0,
+  &#39;10-3&#39;: 0.0,
+  &#39;10-13&#39;: 0.21037253469685904,
+  &#39;10-6&#39;: 0.0,
+  &#39;10-31&#39;: 0.29585798816568043,
+  &#39;10-1&#39;: 0.0,
+  &#39;10-8&#39;: 0.2753846762390728,
+  &#39;10-9&#39;: 0.0,
+  &#39;10-5&#39;: 0.0,
+  &#39;10-16&#39;: 0.0,
+  &#39;10-23&#39;: 0.0,
+  &#39;10-20&#39;: 0.0,
+  &#39;10-24&#39;: 0.0,
+  &#39;10-21&#39;: 0.0,
+  &#39;10-4&#39;: 0.28125,
+  &#39;10-12&#39;: 0.0,
+  &#39;10-26&#39;: 0.22222222222222224,
+  &#39;10-27&#39;: 0.0,
+  &#39;10-25&#39;: 0.78125,
+  &#39;10-28&#39;: 0.0,
+  &#39;10-11&#39;: 0.0,
+  &#39;10-10&#39;: 0.0,
+  &#39;10-29&#39;: 0.0,
+  &#39;10-17&#39;: 0.0,
+  &#39;10-22&#39;: 0.0,
+  &#39;29-19&#39;: 0.0,
+  &#39;29-15&#39;: 0.0,
+  &#39;29-30&#39;: 0.32000000000000006,
+  &#39;29-7&#39;: 0.09370809745232508,
+  &#39;29-14&#39;: 0.09921487603305787,
+  &#39;29-18&#39;: 0.23243801652892562,
+  &#39;29-2&#39;: 0.0,
+  &#39;29-3&#39;: 0.0,
+  &#39;29-13&#39;: 0.21037253469685904,
+  &#39;29-6&#39;: 0.0,
+  &#39;29-31&#39;: 0.29585798816568043,
+  &#39;29-1&#39;: 0.0,
+  &#39;29-8&#39;: 0.2753846762390728,
+  &#39;29-9&#39;: 0.0,
+  &#39;29-5&#39;: 0.0,
+  &#39;29-16&#39;: 0.0,
+  &#39;29-23&#39;: 0.0,
+  &#39;29-20&#39;: 0.0,
+  &#39;29-24&#39;: 0.0,
+  &#39;29-21&#39;: 0.0,
+  &#39;29-4&#39;: 0.28125,
+  &#39;29-12&#39;: 0.0,
+  &#39;29-26&#39;: 0.22222222222222224,
+  &#39;29-27&#39;: 0.0,
+  &#39;29-25&#39;: 0.78125,
+  &#39;29-28&#39;: 0.0,
+  &#39;29-11&#39;: 0.0,
+  &#39;29-10&#39;: 0.0,
+  &#39;29-29&#39;: 0.0,
+  &#39;29-17&#39;: 0.0,
+  &#39;29-22&#39;: 0.0,
+  &#39;17-19&#39;: 0.0,
+  &#39;17-15&#39;: 0.0,
+  &#39;17-30&#39;: 0.32000000000000006,
+  &#39;17-7&#39;: 0.09370809745232508,
+  &#39;17-14&#39;: 0.09921487603305787,
+  &#39;17-18&#39;: 0.23243801652892562,
+  &#39;17-2&#39;: 0.0,
+  &#39;17-3&#39;: 0.0,
+  &#39;17-13&#39;: 0.21037253469685904,
+  &#39;17-6&#39;: 0.0,
+  &#39;17-31&#39;: 0.29585798816568043,
+  &#39;17-1&#39;: 0.0,
+  &#39;17-8&#39;: 0.2753846762390728,
+  &#39;17-9&#39;: 0.0,
+  &#39;17-5&#39;: 0.0,
+  &#39;17-16&#39;: 0.0,
+  &#39;17-23&#39;: 0.0,
+  &#39;17-20&#39;: 0.0,
+  &#39;17-24&#39;: 0.0,
+  &#39;17-21&#39;: 0.0,
+  &#39;17-4&#39;: 0.28125,
+  &#39;17-12&#39;: 0.0,
+  &#39;17-26&#39;: 0.22222222222222224,
+  &#39;17-27&#39;: 0.0,
+  &#39;17-25&#39;: 0.78125,
+  &#39;17-28&#39;: 0.0,
+  &#39;17-11&#39;: 0.0,
+  &#39;17-10&#39;: 0.0,
+  &#39;17-29&#39;: 0.0,
+  &#39;17-17&#39;: 0.0,
+  &#39;17-22&#39;: 0.0,
+  &#39;22-19&#39;: 0.0,
+  &#39;22-15&#39;: 0.0,
+  &#39;22-30&#39;: 0.32000000000000006,
+  &#39;22-7&#39;: 0.09370809745232508,
+  &#39;22-14&#39;: 0.09921487603305787,
+  &#39;22-18&#39;: 0.23243801652892562,
+  &#39;22-2&#39;: 0.0,
+  &#39;22-3&#39;: 0.0,
+  &#39;22-13&#39;: 0.21037253469685904,
+  &#39;22-6&#39;: 0.0,
+  &#39;22-31&#39;: 0.29585798816568043,
+  &#39;22-1&#39;: 0.0,
+  &#39;22-8&#39;: 0.2753846762390728,
+  &#39;22-9&#39;: 0.0,
+  &#39;22-5&#39;: 0.0,
+  &#39;22-16&#39;: 0.0,
+  &#39;22-23&#39;: 0.0,
+  &#39;22-20&#39;: 0.0,
+  &#39;22-24&#39;: 0.0,
+  &#39;22-21&#39;: 0.0,
+  &#39;22-4&#39;: 0.28125,
+  &#39;22-12&#39;: 0.0,
+  &#39;22-26&#39;: 0.22222222222222224,
+  &#39;22-27&#39;: 0.0,
+  &#39;22-25&#39;: 0.78125,
+  &#39;22-28&#39;: 0.0,
+  &#39;22-11&#39;: 0.0,
+  &#39;22-10&#39;: 0.0,
+  &#39;22-29&#39;: 0.0,
+  &#39;22-17&#39;: 0.0,
+  &#39;22-22&#39;: 0.0},
+ &#39;ProgramCode&#39;: {&#39;2-2&#39;: 0.0,
+  &#39;2-1&#39;: 0.019743219754548097,
+  &#39;1-2&#39;: 0.019743219754548097,
+  &#39;1-1&#39;: 0.0},
+ &#39;CitizenCode&#39;: {&#39;US-US&#39;: 0.0,
+  &#39;US-ELNC&#39;: 0.005237653899400706,
+  &#39;US-N&#39;: 0.034925202248521414,
+  &#39;ELNC-US&#39;: 0.005237653899400706,
+  &#39;ELNC-ELNC&#39;: 0.0,
+  &#39;ELNC-N&#39;: 0.013112819420085575,
+  &#39;N-US&#39;: 0.034925202248521414,
+  &#39;N-ELNC&#39;: 0.013112819420085575,
+  &#39;N-N&#39;: 0.0},
+ &#39;IsHispanic&#39;: {&#39;2-2&#39;: 0.0,
+  &#39;2-1&#39;: 0.0005661218112795074,
+  &#39;1-2&#39;: 0.0005661218112795074,
+  &#39;1-1&#39;: 0.0},
+ &#39;DDVeteran&#39;: {&#39;0-0&#39;: 0.0,
+  &#39;0-1&#39;: 0.08506664153451621,
+  &#39;1-0&#39;: 0.08506664153451621,
+  &#39;1-1&#39;: 0.0}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -13127,6 +14770,875 @@ Your task is to look into the data and provide some insight into who “might”
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">cat_distances</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[77]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>9</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Normalization-of-Continuous-Data">Normalization of Continuous Data<a class="anchor-link" href="#Normalization-of-Continuous-Data">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We have to remember to first normalize all of our continuous variables thus we decide to do use mean normalization. Our continuous variables include <code>avgYearPack</code> and <code>numYearAward</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[78]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Index([&#39;StuNum&#39;, &#39;avgYearPack&#39;, &#39;numYearAward&#39;, &#39;SexCode&#39;, &#39;MaritalCode&#39;,
+       &#39;LeadCategoryCode&#39;, &#39;PrevEdCode&#39;, &#39;AdmRepName&#39;, &#39;ProgramCode&#39;,
+       &#39;CitizenCode&#39;, &#39;IsHispanic&#39;, &#39;DDVeteran&#39;, &#39;cancelFlag.x&#39;],
+      dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[79]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>StuNum</th>
+      <th>avgYearPack</th>
+      <th>numYearAward</th>
+      <th>SexCode</th>
+      <th>MaritalCode</th>
+      <th>LeadCategoryCode</th>
+      <th>PrevEdCode</th>
+      <th>AdmRepName</th>
+      <th>ProgramCode</th>
+      <th>CitizenCode</th>
+      <th>IsHispanic</th>
+      <th>DDVeteran</th>
+      <th>cancelFlag.x</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>11800</td>
+      <td>23969.333333</td>
+      <td>3</td>
+      <td>F</td>
+      <td>UN</td>
+      <td>REF</td>
+      <td>SOMECOLL</td>
+      <td>19</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>11221</td>
+      <td>36718.000000</td>
+      <td>2</td>
+      <td>F</td>
+      <td>S</td>
+      <td>INTINT</td>
+      <td>SOMECOLL</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11244</td>
+      <td>7710.000000</td>
+      <td>2</td>
+      <td>F</td>
+      <td>M</td>
+      <td>REF</td>
+      <td>ASSOC</td>
+      <td>30</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12015</td>
+      <td>27188.200000</td>
+      <td>2</td>
+      <td>M</td>
+      <td>M</td>
+      <td>INTINT</td>
+      <td>BACH</td>
+      <td>7</td>
+      <td>1</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>11122</td>
+      <td>24804.943333</td>
+      <td>3</td>
+      <td>F</td>
+      <td>S</td>
+      <td>RADIO</td>
+      <td>BACH</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;avgYearPack&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;avgYearPack&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;avgYearPack&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span><span class="o">/</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;avgYearPack&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;numYearAward&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;numYearAward&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;numYearAward&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span><span class="o">/</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;numYearAward&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[82]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>StuNum</th>
+      <th>avgYearPack</th>
+      <th>numYearAward</th>
+      <th>SexCode</th>
+      <th>MaritalCode</th>
+      <th>LeadCategoryCode</th>
+      <th>PrevEdCode</th>
+      <th>AdmRepName</th>
+      <th>ProgramCode</th>
+      <th>CitizenCode</th>
+      <th>IsHispanic</th>
+      <th>DDVeteran</th>
+      <th>cancelFlag.x</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>11800</td>
+      <td>0.040619</td>
+      <td>1.182145</td>
+      <td>F</td>
+      <td>UN</td>
+      <td>REF</td>
+      <td>SOMECOLL</td>
+      <td>19</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>11221</td>
+      <td>1.255658</td>
+      <td>0.119014</td>
+      <td>F</td>
+      <td>S</td>
+      <td>INTINT</td>
+      <td>SOMECOLL</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11244</td>
+      <td>-1.509011</td>
+      <td>0.119014</td>
+      <td>F</td>
+      <td>M</td>
+      <td>REF</td>
+      <td>ASSOC</td>
+      <td>30</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12015</td>
+      <td>0.347400</td>
+      <td>0.119014</td>
+      <td>M</td>
+      <td>M</td>
+      <td>INTINT</td>
+      <td>BACH</td>
+      <td>7</td>
+      <td>1</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>11122</td>
+      <td>0.120259</td>
+      <td>1.182145</td>
+      <td>F</td>
+      <td>S</td>
+      <td>RADIO</td>
+      <td>BACH</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Compute-Observational-Distances">Compute Observational Distances<a class="anchor-link" href="#Compute-Observational-Distances">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_points</span> <span class="o">=</span> <span class="n">df</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_points</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;StuNum&quot;</span><span class="p">,</span><span class="s2">&quot;cancelFlag.x&quot;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_points</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[85]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>avgYearPack         0.0406192
+numYearAward          1.18215
+SexCode                     F
+MaritalCode                UN
+LeadCategoryCode          REF
+PrevEdCode           SOMECOLL
+AdmRepName                 19
+ProgramCode                 2
+CitizenCode                US
+IsHispanic                  2
+DDVeteran                   0
+Name: 1, dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_points</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[86]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>avgYearPack</th>
+      <th>numYearAward</th>
+      <th>SexCode</th>
+      <th>MaritalCode</th>
+      <th>LeadCategoryCode</th>
+      <th>PrevEdCode</th>
+      <th>AdmRepName</th>
+      <th>ProgramCode</th>
+      <th>CitizenCode</th>
+      <th>IsHispanic</th>
+      <th>DDVeteran</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>0.040619</td>
+      <td>1.182145</td>
+      <td>F</td>
+      <td>UN</td>
+      <td>REF</td>
+      <td>SOMECOLL</td>
+      <td>19</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.255658</td>
+      <td>0.119014</td>
+      <td>F</td>
+      <td>S</td>
+      <td>INTINT</td>
+      <td>SOMECOLL</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-1.509011</td>
+      <td>0.119014</td>
+      <td>F</td>
+      <td>M</td>
+      <td>REF</td>
+      <td>ASSOC</td>
+      <td>30</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.347400</td>
+      <td>0.119014</td>
+      <td>M</td>
+      <td>M</td>
+      <td>INTINT</td>
+      <td>BACH</td>
+      <td>7</td>
+      <td>1</td>
+      <td>US</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>0.120259</td>
+      <td>1.182145</td>
+      <td>F</td>
+      <td>S</td>
+      <td>RADIO</td>
+      <td>BACH</td>
+      <td>15</td>
+      <td>2</td>
+      <td>US</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cat_params</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[87]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;SexCode&#39;,
+ &#39;MaritalCode&#39;,
+ &#39;LeadCategoryCode&#39;,
+ &#39;PrevEdCode&#39;,
+ &#39;AdmRepName&#39;,
+ &#39;ProgramCode&#39;,
+ &#39;CitizenCode&#39;,
+ &#39;IsHispanic&#39;,
+ &#39;DDVeteran&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#cat_distances</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">point_distance</span><span class="p">(</span><span class="n">point1</span><span class="p">,</span> <span class="n">point2</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">distances</span><span class="p">):</span>
+    <span class="c1">#Separate categorical and continuous variables</span>
+    <span class="n">p1_cat</span> <span class="o">=</span> <span class="n">point1</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+    <span class="n">p2_cat</span> <span class="o">=</span> <span class="n">point2</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+    <span class="n">p1_con</span> <span class="o">=</span> <span class="n">point1</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">p2_con</span> <span class="o">=</span> <span class="n">point2</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+    
+    <span class="c1">#compute continuous distance</span>
+    <span class="n">cont_dist</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">p2_con</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">p1_con</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">p2_con</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">p1_con</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span>
+    
+    <span class="c1">#Retrieve all the delta distance values</span>
+    <span class="n">dist_key</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">p1_cat</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot;-&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p2_cat</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">p1_cat</span><span class="p">))]</span>
+    <span class="n">deltas</span> <span class="o">=</span> <span class="p">[</span><span class="n">distances</span><span class="p">[</span><span class="n">params</span><span class="p">[</span><span class="n">i</span><span class="p">]][</span><span class="n">dist_key</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">params</span><span class="p">))]</span>
+    
+    <span class="c1">#compute point distance with VDM</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">cont_dist</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">deltas</span><span class="p">),</span> <span class="mf">0.5</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">res</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">point_distance</span><span class="p">(</span><span class="n">test_points</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">test_points</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">cat_params</span><span class="p">,</span> <span class="n">cat_distances</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[91]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>2.8236505757459422</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="HI-TYLER-INSTALL-PROGRESSBAR-PLS-OK-BYE">HI TYLER INSTALL PROGRESSBAR PLS OK BYE<a class="anchor-link" href="#HI-TYLER-INSTALL-PROGRESSBAR-PLS-OK-BYE">&#182;</a></h1><p>pip install progressbar2</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">progressbar</span>
+
+<span class="n">progress</span> <span class="o">=</span> <span class="n">progressbar</span><span class="o">.</span><span class="n">ProgressBar</span><span class="p">()</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">total_dists</span> <span class="o">=</span> <span class="p">[</span><span class="n">point_distance</span><span class="p">(</span><span class="n">test</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">test</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">cat_params</span><span class="p">,</span> <span class="n">cat_distances</span><span class="p">)</span>
+                   <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">progress</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>  6% (155 of 2260) |#                    | Elapsed Time: 0:01:46 ETA:   0:25:39</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-68-06b8611ffcf8&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">      5</span> x <span class="ansi-yellow-intense-fg ansi-bold">=</span> range<span class="ansi-yellow-intense-fg ansi-bold">(</span>df<span class="ansi-yellow-intense-fg ansi-bold">.</span>shape<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      6</span> total_dists = [point_distance(test.iloc[i],test.iloc[j], cat_params, cat_distances)
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 7</span><span class="ansi-yellow-intense-fg ansi-bold">                    for i in progress(x) for j in x]
+</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-68-06b8611ffcf8&gt;</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
+<span class="ansi-green-fg">      5</span> x <span class="ansi-yellow-intense-fg ansi-bold">=</span> range<span class="ansi-yellow-intense-fg ansi-bold">(</span>df<span class="ansi-yellow-intense-fg ansi-bold">.</span>shape<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">      6</span> total_dists = [point_distance(test.iloc[i],test.iloc[j], cat_params, cat_distances)
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 7</span><span class="ansi-yellow-intense-fg ansi-bold">                    for i in progress(x) for j in x]
+</span>
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\indexing.py</span> in <span class="ansi-cyan-fg">__getitem__</span><span class="ansi-blue-intense-fg ansi-bold">(self, key)</span>
+<span class="ansi-green-fg">   1476</span> 
+<span class="ansi-green-fg">   1477</span>             maybe_callable <span class="ansi-yellow-intense-fg ansi-bold">=</span> com<span class="ansi-yellow-intense-fg ansi-bold">.</span>_apply_if_callable<span class="ansi-yellow-intense-fg ansi-bold">(</span>key<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>obj<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1478</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_getitem_axis<span class="ansi-yellow-intense-fg ansi-bold">(</span>maybe_callable<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span>axis<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1479</span> 
+<span class="ansi-green-fg">   1480</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _is_scalar_access<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> key<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\indexing.py</span> in <span class="ansi-cyan-fg">_getitem_axis</span><span class="ansi-blue-intense-fg ansi-bold">(self, key, axis)</span>
+<span class="ansi-green-fg">   2102</span>             self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_validate_integer<span class="ansi-yellow-intense-fg ansi-bold">(</span>key<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   2103</span> 
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 2104</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_get_loc<span class="ansi-yellow-intense-fg ansi-bold">(</span>key<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span>axis<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   2105</span> 
+<span class="ansi-green-fg">   2106</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _convert_to_indexer<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> obj<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> is_setter<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\indexing.py</span> in <span class="ansi-cyan-fg">_get_loc</span><span class="ansi-blue-intense-fg ansi-bold">(self, key, axis)</span>
+<span class="ansi-green-fg">    143</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> axis <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    144</span>             axis <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>axis
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 145</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>obj<span class="ansi-yellow-intense-fg ansi-bold">.</span>_ixs<span class="ansi-yellow-intense-fg ansi-bold">(</span>key<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span>axis<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    146</span> 
+<span class="ansi-green-fg">    147</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _slice<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> obj<span class="ansi-yellow-intense-fg ansi-bold">,</span> axis<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> kind<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\frame.py</span> in <span class="ansi-cyan-fg">_ixs</span><span class="ansi-blue-intense-fg ansi-bold">(self, i, axis)</span>
+<span class="ansi-green-fg">   2614</span>                     copy <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">True</span>
+<span class="ansi-green-fg">   2615</span>                 <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 2616</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span>new_values <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_data<span class="ansi-yellow-intense-fg ansi-bold">.</span>fast_xs<span class="ansi-yellow-intense-fg ansi-bold">(</span>i<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   2617</span>                     <span class="ansi-green-intense-fg ansi-bold">if</span> is_scalar<span class="ansi-yellow-intense-fg ansi-bold">(</span>new_values<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   2618</span>                         <span class="ansi-green-intense-fg ansi-bold">return</span> new_values
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\internals.py</span> in <span class="ansi-cyan-fg">fast_xs</span><span class="ansi-blue-intense-fg ansi-bold">(self, loc)</span>
+<span class="ansi-green-fg">   4072</span> 
+<span class="ansi-green-fg">   4073</span>         <span class="ansi-red-intense-fg ansi-bold"># unique</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 4074</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>dtype <span class="ansi-yellow-intense-fg ansi-bold">=</span> _interleaved_dtype<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>blocks<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   4075</span>         n <span class="ansi-yellow-intense-fg ansi-bold">=</span> len<span class="ansi-yellow-intense-fg ansi-bold">(</span>items<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   4076</span>         result <span class="ansi-yellow-intense-fg ansi-bold">=</span> np<span class="ansi-yellow-intense-fg ansi-bold">.</span>empty<span class="ansi-yellow-intense-fg ansi-bold">(</span>n<span class="ansi-yellow-intense-fg ansi-bold">,</span> dtype<span class="ansi-yellow-intense-fg ansi-bold">=</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\internals.py</span> in <span class="ansi-cyan-fg">_interleaved_dtype</span><span class="ansi-blue-intense-fg ansi-bold">(blocks)</span>
+<span class="ansi-green-fg">   5046</span>         <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
+<span class="ansi-green-fg">   5047</span> 
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 5048</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>dtype <span class="ansi-yellow-intense-fg ansi-bold">=</span> find_common_type<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>b<span class="ansi-yellow-intense-fg ansi-bold">.</span>dtype <span class="ansi-green-intense-fg ansi-bold">for</span> b <span class="ansi-green-intense-fg ansi-bold">in</span> blocks<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   5049</span> 
+<span class="ansi-green-fg">   5050</span>     <span class="ansi-red-intense-fg ansi-bold"># only numpy compat</span>
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\pandas\core\dtypes\cast.py</span> in <span class="ansi-cyan-fg">find_common_type</span><span class="ansi-blue-intense-fg ansi-bold">(types)</span>
+<span class="ansi-green-fg">   1139</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> np<span class="ansi-yellow-intense-fg ansi-bold">.</span>object
+<span class="ansi-green-fg">   1140</span> 
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1141</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-green-intense-fg ansi-bold">return</span> np<span class="ansi-yellow-intense-fg ansi-bold">.</span>find_common_type<span class="ansi-yellow-intense-fg ansi-bold">(</span>types<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1142</span> 
+<span class="ansi-green-fg">   1143</span> 
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\numpy\core\numerictypes.py</span> in <span class="ansi-cyan-fg">find_common_type</span><span class="ansi-blue-intense-fg ansi-bold">(array_types, scalar_types)</span>
+<span class="ansi-green-fg">   1002</span>     scalar_types <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span>dtype<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> x <span class="ansi-green-intense-fg ansi-bold">in</span> scalar_types<span class="ansi-yellow-intense-fg ansi-bold">]</span>
+<span class="ansi-green-fg">   1003</span> 
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1004</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>maxa <span class="ansi-yellow-intense-fg ansi-bold">=</span> _can_coerce_all<span class="ansi-yellow-intense-fg ansi-bold">(</span>array_types<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1005</span>     maxsc <span class="ansi-yellow-intense-fg ansi-bold">=</span> _can_coerce_all<span class="ansi-yellow-intense-fg ansi-bold">(</span>scalar_types<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1006</span> 
+
+<span class="ansi-green-intense-fg ansi-bold">~\Anaconda3\lib\site-packages\numpy\core\numerictypes.py</span> in <span class="ansi-cyan-fg">_can_coerce_all</span><span class="ansi-blue-intense-fg ansi-bold">(dtypelist, start)</span>
+<span class="ansi-green-fg">    933</span>     thisind <span class="ansi-yellow-intense-fg ansi-bold">=</span> start
+<span class="ansi-green-fg">    934</span>     <span class="ansi-green-intense-fg ansi-bold">while</span> thisind <span class="ansi-yellow-intense-fg ansi-bold">&lt;</span> __len_test_types<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 935</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>newdtype <span class="ansi-yellow-intense-fg ansi-bold">=</span> dtype<span class="ansi-yellow-intense-fg ansi-bold">(</span>__test_types<span class="ansi-yellow-intense-fg ansi-bold">[</span>thisind<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    936</span>         numcoerce <span class="ansi-yellow-intense-fg ansi-bold">=</span> len<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>x <span class="ansi-green-intense-fg ansi-bold">for</span> x <span class="ansi-green-intense-fg ansi-bold">in</span> dtypelist <span class="ansi-green-intense-fg ansi-bold">if</span> newdtype <span class="ansi-yellow-intense-fg ansi-bold">&gt;=</span> x<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    937</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> numcoerce <span class="ansi-yellow-intense-fg ansi-bold">==</span> N<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
